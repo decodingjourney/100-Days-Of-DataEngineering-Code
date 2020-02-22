@@ -1,1 +1,40 @@
-adding few commands
+1) GET _cluster/health -- This command is used to check the cluster health. below is the sample output
+{
+  "cluster_name" : "elasticsearch",
+  "status" : "yellow",
+  "timed_out" : false,
+  "number_of_nodes" : 1,
+  "number_of_data_nodes" : 1,
+  "active_primary_shards" : 5,
+  "active_shards" : 5,
+  "relocating_shards" : 0,
+  "initializing_shards" : 0,
+  "unassigned_shards" : 2,
+  "delayed_unassigned_shards" : 0,
+  "number_of_pending_tasks" : 0,
+  "number_of_in_flight_fetch" : 0,
+  "task_max_waiting_in_queue_millis" : 0,
+  "active_shards_percent_as_number" : 71.42857142857143
+}
+
+2) GET _cat/nodes?v -- This command is used to check all the details of a node in elasticsearch.
+ip        heap.percent ram.percent cpu load_1m load_5m load_15m node.role master name
+127.0.0.1           12          49   8    0.75    0.79     0.66 mdi       *      IQTLAPTOP-095
+
+3) GET _nodes -- This command is used to fetch all the details of nodes
+
+4) GET _cat/indices?v -- Use the cat indices API to get the following information for each index in a cluster:
+
+Shard count
+Document count
+Deleted document count
+Primary store size
+Total store size of all shards, including shard replicas
+
+5) GET /.kibana/_search
+{
+  "query" : {
+    "match_all": {}
+  }
+}
+
