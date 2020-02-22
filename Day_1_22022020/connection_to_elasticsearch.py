@@ -9,6 +9,6 @@ doc = {
 }
 
 
-res = es.search(index='products', doc_type='typename', body=doc,scroll='1m')
+res = es.search(index='products', body=doc)
 
 print(res)
