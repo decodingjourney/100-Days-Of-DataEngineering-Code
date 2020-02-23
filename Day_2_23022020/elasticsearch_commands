@@ -1,0 +1,104 @@
+GET /products -- This command gives all the details of the index products
+GET /_all
+GET /_aliases -- This will list all the indices and associated aliases as a response
+GET /_cat/shards?v --  The shards command is the detailed view of what nodes contain which shards.
+It will tell you if it’s a primary or replica, the number of docs, the bytes it takes on disk, and the node where it’s located.
+GET /_cat/shards/anand?v -- will return the shard details of specific index mentioned as an argument.
+DELETE /product -- Deletes an existing index
+
+PUT /anand
+{
+  "settings": {
+      "number_of_shards" : 3,
+      "number_of_replicas" : 2
+    }
+  }
+
+ "This command will create the index having all the details of the shards"
+
+
+POST /anand/_doc
+{
+  "name" : "Coffee maker",
+  "price" : 100,
+  "in_stock" : 10
+}
+"This command will save the document specified in the index, id will be created by default"
+
+POST /anand/_doc/4880
+{
+  "name" : "SST",
+  "price" : 123456789,
+  "in_stock" : 12345123
+}
+"This command will save the document specified in the index, with the id which is mentioned in the url"
+
+GET /anand/_search
+{
+  "query": {
+    "match_all": {}
+  }
+}
+
+"This command will search all the documents in the index"
+
+GET /anand/_doc/4880 -- This command will get the document matching the ID specified
+
+PUT /anand/_doc/4880
+{
+  "name" : "SST",
+  "price" : 123456,
+  "in_stock" : 123451
+}
+
+This command will update the existing document matching id in the given index
+
+POST /anand/_update/4880
+{
+  "doc" : {
+    "price" : 123
+  }
+}
+
+Updating the document is achieved with the help of _update api as mentioned above.
+
+POST /anand/_update/4880
+{
+  "doc" : {
+    "tags" : ["sainik"]
+  }
+}
+
+above command will update the document by adding the new fields which is mentioned in the request body
+
+POST /anand/_update/4880
+{
+  "script" : {
+    "source": "ctx._source.price = 0"
+  }
+}
+
+POST /products/_update/100
+{
+  "script" : {
+    "source": "ctx._source.in_stock -= params.quantity",
+    "params": {
+      "quantity" : 4
+    }
+  }
+}
+
+POST /products/_update/100
+{
+  "script" : {
+    "source": """
+      if (ctx._source.in_stock == 0) {
+        ctx.op = 'noop';
+      }
+      ctx._source.in_stock--;
+    """
+  }
+}
+
+above are few commands which will be used for updating document for the specific id in the index
+
