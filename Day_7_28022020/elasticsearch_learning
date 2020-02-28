@@ -1,0 +1,114 @@
+Tokenizing text with the standard tokenizer
+
+POST /_analyze
+{
+  "tokenizer": "standard",
+  "text": "I'm in the mood to drinking semi-dry red wine!"
+
+}
+
+Using the lowercase token filter
+
+POST /_analyze
+{
+  "filter": ["lowercase"],
+  "text": "I'm in the mood to drinking semi-dry red wine!"
+}
+
+Using the standard analyzer
+
+POST /_analyze
+{
+  "analyzer": "standard",
+  "text": "I'm in the mood to drinking semi-dry red wine!"
+}
+
+
+Configuring built-in analyzers and token filter
+
+PUT existing_analyzer_config
+{
+  "settings": {
+    "analysis": {
+      "analyzer": {
+        "english_stop": {
+          "type": "standard",
+          "stopwords": "_english_"
+        },
+        "my_analyzer": {
+          "type": "custom",
+          "tokenizer": "standard",
+          "char_filter": [
+            "html_strip"
+            ],
+            "filter": [
+              "standard",
+              "lowercase",
+              "trim",
+              "my_stemmer"
+              ]
+        }
+      },
+      "filter": {
+        "my_stemmer": {
+          "type": "stemmer",
+          "name": "english"
+        }
+      }
+    }
+  }
+}
+
+
+POST /existing_analyzer_config/_analyze
+{
+  "analyzer": "english_stop",
+  "text": "I'm in the mood for drinking semi-dry red wine!"
+}
+
+POST /existing_analyzer_config/_analyze
+{
+  "tokenizer": "standard",
+  "filter": ["my_stemmer"],
+  "text": "I'm in the mood for drinking semi-dry red wine!"
+}
+
+
+PUT analyzerss_test
+{
+  "settings": {
+    "analysis": {
+      "analyzer": {
+        "english_stop": {
+          "type": "standard",
+          "stopwords": "_english_"
+        },
+        "my_analyzer": {
+          "type": "custom",
+          "tokenizer": "standard",
+          "char_filter": [
+            "html_strip"
+            ],
+            "filter": [
+              "lowercase",
+              "trim",
+              "my_stemmer"
+              ]
+        }
+      },
+      "filter": {
+        "my_stemmer": {
+          "type": "stemmer",
+          "name": "english"
+        }
+      }
+    }
+  }
+}
+
+
+POST /analyzerss_test/_analyze
+{
+  "analyzer": "my_analyzer",
+  "text": "I'm in the mood for drinking <strong>semi-dry</strong> red wine!"
+}

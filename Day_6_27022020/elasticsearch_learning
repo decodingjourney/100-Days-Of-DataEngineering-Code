@@ -1,0 +1,55 @@
+When we try to store the documents into the elasticsearch index, it's full text fields are analysed and tokenized into terms,
+then those terms are converted into lower case and stored into something called as inverted index. This is the index where we
+run our search queries against.
+
+When full text fields are analysed, that means it goes through the process of Analyser. Analyzers contains basically three steps
+1) Character Filter :- It a content has to do through some character filter, this is the step
+2) Tokenizer :- all the strings are converted into arrays of tokens.
+3) Token Filter:- By default standard Token filters are used to convert all the tokens into lower cases.
+If stub token filters are enabled then all the tokens which does not provide any meaning will be removed. such as a, an, the
+If synonyms token filters are enabled then all the tokens which provides the same meaning will be stored at one place.
+
+_____________past revision ________________
+
+GET /products/_doc/100
+
+POST /products/_update/100
+{
+  "doc": {
+    "tag" : ["electricity", "water"]
+  }
+}
+
+POST /products/_update/100
+{
+  "script" : {
+    "source": "ctx._source.in_stock--"
+  }
+}
+
+
+POST /products/_update/100
+{
+  "script" : {
+    "source": "ctx._source.in_stock -= params.quantity",
+    "params": {
+      "quantity" : 4
+    }
+
+  }
+}
+
+
+POST /products/_update/100
+{
+  "script" : {
+    "source": """
+    if (ctx._source.in_stock == 0) {
+      ctx.op = 'noop';
+    }
+
+    ctx._source.in_stock--;
+
+    """
+  }
+}
