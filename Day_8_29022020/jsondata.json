@@ -1,0 +1,4708 @@
+{
+  "Find": {
+    "Status": "Success",
+    "Result": [
+      {
+        "Light": {
+          "sid": "zskk7fvnvryvsejqpun2u2dulwzg4k4y",
+          "private": {
+            "lamp_Status": "OFF"
+          },
+          "deviceState": {
+            "connState": {
+              "connected": false,
+              "since": 1579622488000
+            }
+          },
+          "label": "Pole 016",
+          "geohash": "dhtxp5u04mp8",
+          "parentDomain": "Light",
+          "powerMeter": "Powermeter_54204",
+          "createTime": 1579639633980,
+          "isIndependent": true,
+          "providerDetails": {
+            "provider": "cimcon"
+          },
+          "thirdPartyId": "54204",
+          "status": "On",
+          "state": {
+            "reliability": 0.0,
+            "intensityLevel": {
+              "lastKnownValue": -1.0
+            },
+            "powerConsumption": -1.0
+          },
+          "geocoordinates": {
+            "longitude": -81.952408,
+            "latitude": 26.563595
+          },
+          "lastUpdated": 1582539362000,
+          "tenantId": "csc.com",
+          "isValid": true,
+          "mode": [
+            "Manual"
+          ],
+          "locationId": [
+            "10094",
+            "10093",
+            "10092",
+            "10000"
+          ],
+          "applicableDomain": [
+            "Light"
+          ],
+          "locationName": [
+            "CapeCoral"
+          ]
+        }
+      },
+      {
+        "Light": {
+          "sid": "2cx5acmnlu6wwtnpsjapt4rbrpyhhncx",
+          "label": "Pole 086",
+          "geohash": "dhtxp5unred1",
+          "deviceState": {
+            "connState": {
+              "connected": true,
+              "since": 1579706877000
+            }
+          },
+          "parentDomain": "Light",
+          "powerMeter": "Powermeter_20642",
+          "createTime": 1579726002891,
+          "isIndependent": true,
+          "providerDetails": {
+            "provider": "cimcon"
+          },
+          "thirdPartyId": "20642",
+          "status": "On",
+          "state": {
+            "reliability": 100.0,
+            "intensityLevel": {
+              "request": {
+                "value": 0E-10
+              },
+              "lastKnownValue": 0.0
+            },
+            "powerConsumption": -1.0
+          },
+          "geocoordinates": {
+            "longitude": -81.95219,
+            "latitude": 26.56466
+          },
+          "lastUpdated": 1582948872000,
+          "tenantId": "csc.com",
+          "isValid": true,
+          "private": {
+            "lamp_Status": "OFF"
+          },
+          "locationId": [
+            "10094",
+            "10093",
+            "10092",
+            "10000"
+          ],
+          "applicableDomain": [
+            "Light"
+          ],
+          "locationName": [
+            "CapeCoral"
+          ],
+          "mode": [
+            "Manual"
+          ]
+        }
+      },
+      {
+        "Light": {
+          "sid": "mxooddt7dd6cgggoktprnxiu26l6e2ft",
+          "providerDetails": {
+            "provider": "cimcon"
+          },
+          "thirdPartyId": "54198",
+          "status": "On",
+          "state": {
+            "reliability": 100.0,
+            "intensityLevel": {
+              "lastKnownValue": 100.0
+            },
+            "powerConsumption": -1.0
+          },
+          "geocoordinates": {
+            "longitude": -81.951324,
+            "latitude": 26.563816
+          },
+          "deviceState": {
+            "connState": {
+              "since": 1579690889000,
+              "connected": true
+            }
+          },
+          "lastUpdated": 1582948863000,
+          "tenantId": "csc.com",
+          "isValid": true,
+          "private": {
+            "lamp_Status": "ON"
+          },
+          "label": "Pole 053",
+          "geohash": "dhtxp5uc7wpy",
+          "parentDomain": "Light",
+          "powerMeter": "Powermeter_54198",
+          "createTime": 1579711617991,
+          "isIndependent": true,
+          "locationId": [
+            "10094",
+            "10093",
+            "10092",
+            "10000"
+          ],
+          "applicableDomain": [
+            "Light"
+          ],
+          "locationName": [
+            "CapeCoral"
+          ],
+          "mode": [
+            "Photocell"
+          ]
+        }
+      },
+      {
+        "Light": {
+          "sid": "o7xpczxacvt6mnnanjnqpdug25hvoim7",
+          "deviceState": {
+            "connState": {
+              "connected": true,
+              "since": 1579705269000
+            }
+          },
+          "label": "Pole 076",
+          "geohash": "dhtxphh22fyv",
+          "parentDomain": "Light",
+          "powerMeter": "Powermeter_20902",
+          "createTime": 1579722403422,
+          "isIndependent": true,
+          "providerDetails": {
+            "provider": "cimcon"
+          },
+          "thirdPartyId": "20902",
+          "status": "On",
+          "state": {
+            "reliability": 100.0,
+            "intensityLevel": {
+              "lastKnownValue": 100.0
+            },
+            "powerConsumption": -1.0
+          },
+          "geocoordinates": {
+            "longitude": -81.95213,
+            "latitude": 26.565
+          },
+          "lastUpdated": 1582948864000,
+          "tenantId": "csc.com",
+          "isValid": true,
+          "private": {
+            "lamp_Status": "ON"
+          },
+          "mode": [
+            "Photocell"
+          ],
+          "locationName": [
+            "CapeCoral"
+          ],
+          "applicableDomain": [
+            "Light"
+          ],
+          "locationId": [
+            "10094",
+            "10093",
+            "10092",
+            "10000"
+          ]
+        }
+      },
+      {
+        "Light": {
+          "sid": "phakxwjs73bux3zakllj74iphdvb3zhm",
+          "deviceState": {
+            "connState": {
+              "connected": true,
+              "since": 1579690886000
+            }
+          },
+          "label": "Pole 057",
+          "geohash": "dhtxphh7jr4y",
+          "parentDomain": "Light",
+          "powerMeter": "Powermeter_54192",
+          "createTime": 1579711617701,
+          "isIndependent": true,
+          "providerDetails": {
+            "provider": "cimcon"
+          },
+          "thirdPartyId": "54192",
+          "status": "On",
+          "state": {
+            "reliability": 100.0,
+            "intensityLevel": {
+              "request": {
+                "value": 80.0000000000
+              },
+              "lastKnownValue": 20.0
+            },
+            "powerConsumption": -1.0
+          },
+          "geocoordinates": {
+            "longitude": -81.951942,
+            "latitude": 26.565495
+          },
+          "lastUpdated": 1582948866000,
+          "tenantId": "csc.com",
+          "isValid": true,
+          "private": {
+            "lamp_Status": "ON"
+          },
+          "locationName": [
+            "CapeCoral"
+          ],
+          "applicableDomain": [
+            "Light"
+          ],
+          "locationId": [
+            "10094",
+            "10093",
+            "10092",
+            "10000"
+          ],
+          "mode": [
+            "Manual"
+          ]
+        }
+      },
+      {
+        "Light": {
+          "sid": "pythk7plovsyjbpqcsogtvh3dvz5zdt3",
+          "deviceState": {
+            "connState": {
+              "connected": true,
+              "since": 1579694470000
+            }
+          },
+          "label": "Pole 069",
+          "geohash": "dhtxp5b0tjse",
+          "parentDomain": "Light",
+          "powerMeter": "Powermeter_54202",
+          "createTime": 1579711626311,
+          "isIndependent": true,
+          "providerDetails": {
+            "provider": "cimcon"
+          },
+          "thirdPartyId": "54202",
+          "status": "On",
+          "state": {
+            "reliability": 100.0,
+            "intensityLevel": {
+              "request": {
+                "value": 100.0000000000
+              },
+              "lastKnownValue": 100.0
+            },
+            "powerConsumption": -1.0
+          },
+          "geocoordinates": {
+            "longitude": -81.957787,
+            "latitude": 26.563684
+          },
+          "lastUpdated": 1582948873000,
+          "tenantId": "csc.com",
+          "isValid": true,
+          "private": {
+            "lamp_Status": "ON"
+          },
+          "locationId": [
+            "10094",
+            "10093",
+            "10092",
+            "10000"
+          ],
+          "mode": [
+            "Photocell"
+          ],
+          "applicableDomain": [
+            "Light"
+          ],
+          "locationName": [
+            "CapeCoral"
+          ]
+        }
+      },
+      {
+        "Light": {
+          "sid": "qjsweuhcceyawr6ci23h4baxzxnk6vm5",
+          "deviceState": {
+            "connState": {
+              "connected": true,
+              "since": 1579629660000
+            }
+          },
+          "label": "Pole 034",
+          "geohash": "dhtxp78xgumj",
+          "parentDomain": "Light",
+          "powerMeter": "Powermeter_54213",
+          "createTime": 1579643264388,
+          "isIndependent": true,
+          "providerDetails": {
+            "provider": "cimcon"
+          },
+          "thirdPartyId": "54213",
+          "status": "On",
+          "state": {
+            "reliability": 100.0,
+            "intensityLevel": {
+              "lastKnownValue": 100.0
+            },
+            "powerConsumption": -1.0
+          },
+          "geocoordinates": {
+            "longitude": -81.946167,
+            "latitude": 26.563549
+          },
+          "lastUpdated": 1582948866000,
+          "tenantId": "csc.com",
+          "isValid": true,
+          "private": {
+            "lamp_Status": "ON"
+          },
+          "locationId": [
+            "10094",
+            "10093",
+            "10092",
+            "10000"
+          ],
+          "applicableDomain": [
+            "Light"
+          ],
+          "locationName": [
+            "CapeCoral"
+          ],
+          "mode": [
+            "Photocell"
+          ]
+        }
+      },
+      {
+        "Light": {
+          "sid": "qnkapgzrymw7tr4jy4ckeq3nebfmnfca",
+          "deviceState": {
+            "connState": {
+              "connected": true,
+              "since": 1579622488000
+            }
+          },
+          "label": "Pole 024",
+          "geohash": "dhtxp5vb1hn6",
+          "parentDomain": "Light",
+          "powerMeter": "Powermeter_20969",
+          "createTime": 1579643228816,
+          "isIndependent": true,
+          "providerDetails": {
+            "provider": "cimcon"
+          },
+          "thirdPartyId": "20969",
+          "status": "On",
+          "state": {
+            "reliability": 100.0,
+            "intensityLevel": {
+              "lastKnownValue": 100.0
+            },
+            "powerConsumption": -1.0
+          },
+          "geocoordinates": {
+            "longitude": -81.95006,
+            "latitude": 26.56359
+          },
+          "lastUpdated": 1582948863000,
+          "tenantId": "csc.com",
+          "isValid": true,
+          "private": {
+            "lamp_Status": "ON"
+          },
+          "mode": [
+            "Photocell"
+          ],
+          "locationId": [
+            "10094",
+            "10093",
+            "10092",
+            "10000"
+          ],
+          "applicableDomain": [
+            "Light"
+          ],
+          "locationName": [
+            "CapeCoral"
+          ]
+        }
+      },
+      {
+        "Light": {
+          "sid": "qrthf34k5h5qjpln5bcad4hxybvleagp",
+          "deviceState": {
+            "connState": {
+              "connected": true,
+              "since": 1579703426000
+            }
+          },
+          "label": "Pole 072",
+          "geohash": "dhtxp5um99mn",
+          "parentDomain": "Light",
+          "powerMeter": "Powermeter_20869",
+          "createTime": 1579722403273,
+          "isIndependent": true,
+          "providerDetails": {
+            "provider": "cimcon"
+          },
+          "thirdPartyId": "20869",
+          "status": "On",
+          "state": {
+            "reliability": 100.0,
+            "intensityLevel": {
+              "request": {
+                "value": 1.0000000000
+              },
+              "lastKnownValue": 100.0
+            },
+            "powerConsumption": -1.0
+          },
+          "geocoordinates": {
+            "longitude": -81.9521,
+            "latitude": 26.56452
+          },
+          "lastUpdated": 1582948799000,
+          "tenantId": "csc.com",
+          "isValid": true,
+          "private": {
+            "lamp_Status": "ON"
+          },
+          "mode": [
+            "Photocell"
+          ],
+          "locationId": [
+            "10094",
+            "10093",
+            "10092",
+            "10000"
+          ],
+          "applicableDomain": [
+            "Light"
+          ],
+          "locationName": [
+            "CapeCoral"
+          ]
+        }
+      },
+      {
+        "Light": {
+          "sid": "qsquk4teksq63myu2lgy7gzakh6qwqvz",
+          "deviceState": {
+            "connState": {
+              "connected": true,
+              "since": 1579629661000
+            }
+          },
+          "label": "Pole 021",
+          "geohash": "dhtxp5v2v0dd",
+          "parentDomain": "Light",
+          "powerMeter": "Powermeter_17669",
+          "createTime": 1579639624288,
+          "isIndependent": true,
+          "providerDetails": {
+            "provider": "cimcon"
+          },
+          "thirdPartyId": "17669",
+          "status": "On",
+          "state": {
+            "reliability": 100.0,
+            "intensityLevel": {
+              "lastKnownValue": 100.0
+            },
+            "powerConsumption": -1.0
+          },
+          "geocoordinates": {
+            "longitude": -81.95058,
+            "latitude": 26.5637
+          },
+          "lastUpdated": 1582948862000,
+          "tenantId": "csc.com",
+          "isValid": true,
+          "private": {
+            "lamp_Status": "ON"
+          },
+          "mode": [
+            "Photocell"
+          ],
+          "locationId": [
+            "10094",
+            "10093",
+            "10092",
+            "10000"
+          ],
+          "applicableDomain": [
+            "Light"
+          ],
+          "locationName": [
+            "CapeCoral"
+          ]
+        }
+      },
+      {
+        "Light": {
+          "sid": "rayfu5qh43uqfbmrttti54ofdcevbkgk",
+          "deviceState": {
+            "connState": {
+              "connected": true,
+              "since": 1579622475000
+            }
+          },
+          "label": "Pole 028",
+          "geohash": "dhtxp5ybdfbp",
+          "parentDomain": "Light",
+          "powerMeter": "Powermeter_20545",
+          "createTime": 1579643218784,
+          "isIndependent": true,
+          "providerDetails": {
+            "provider": "cimcon"
+          },
+          "thirdPartyId": "20545",
+          "status": "On",
+          "state": {
+            "reliability": 100.0,
+            "intensityLevel": {
+              "lastKnownValue": 100.0
+            },
+            "powerConsumption": -1.0
+          },
+          "geocoordinates": {
+            "longitude": -81.94862,
+            "latitude": 26.56367
+          },
+          "lastUpdated": 1582948862000,
+          "tenantId": "csc.com",
+          "isValid": true,
+          "private": {
+            "lamp_Status": "ON"
+          },
+          "mode": [
+            "Photocell"
+          ],
+          "locationId": [
+            "10094",
+            "10093",
+            "10092",
+            "10000"
+          ],
+          "locationName": [
+            "CapeCoral"
+          ],
+          "applicableDomain": [
+            "Light"
+          ]
+        }
+      },
+      {
+        "Light": {
+          "sid": "rqglk4ci6ikx6o37c6age2oksivbjrym",
+          "deviceState": {
+            "connState": {
+              "connected": true,
+              "since": 1579694468000
+            }
+          },
+          "label": "Pole 065",
+          "geohash": "dhtxp5c92wpn",
+          "parentDomain": "Light",
+          "powerMeter": "Powermeter_54195",
+          "createTime": 1579711617898,
+          "isIndependent": true,
+          "providerDetails": {
+            "provider": "cimcon"
+          },
+          "thirdPartyId": "54195",
+          "status": "On",
+          "state": {
+            "reliability": 100.0,
+            "intensityLevel": {
+              "lastKnownValue": 100.0
+            },
+            "powerConsumption": -1.0
+          },
+          "geocoordinates": {
+            "longitude": -81.955917,
+            "latitude": 26.563816
+          },
+          "lastUpdated": 1582948874000,
+          "tenantId": "csc.com",
+          "isValid": true,
+          "private": {
+            "lamp_Status": "ON"
+          },
+          "locationName": [
+            "CapeCoral"
+          ],
+          "applicableDomain": [
+            "Light"
+          ],
+          "locationId": [
+            "10094",
+            "10093",
+            "10092",
+            "10000"
+          ],
+          "mode": [
+            "Photocell"
+          ]
+        }
+      },
+      {
+        "Light": {
+          "sid": "rr2sf3flrbyeaiu6dnaocgzcta365rhf",
+          "deviceState": {
+            "connState": {
+              "connected": true,
+              "since": 1579694467000
+            }
+          },
+          "label": "Pole 038",
+          "geohash": "dhtxp7bbyezb",
+          "parentDomain": "Light",
+          "powerMeter": "Powermeter_54189",
+          "createTime": 1579711617569,
+          "isIndependent": true,
+          "providerDetails": {
+            "provider": "cimcon"
+          },
+          "thirdPartyId": "54189",
+          "status": "On",
+          "state": {
+            "reliability": 100.0,
+            "intensityLevel": {
+              "lastKnownValue": 100.0
+            },
+            "powerConsumption": -1.0
+          },
+          "geocoordinates": {
+            "longitude": -81.945702,
+            "latitude": 26.563717
+          },
+          "lastUpdated": 1582948869000,
+          "tenantId": "csc.com",
+          "isValid": true,
+          "private": {
+            "lamp_Status": "ON"
+          },
+          "mode": [
+            "Photocell"
+          ],
+          "locationId": [
+            "10094",
+            "10093",
+            "10092",
+            "10000"
+          ],
+          "applicableDomain": [
+            "Light"
+          ],
+          "locationName": [
+            "CapeCoral"
+          ]
+        }
+      },
+      {
+        "Light": {
+          "sid": "spktu3qk7dbykmwgwft24hhog52p4ok3",
+          "deviceState": {
+            "connState": {
+              "connected": true,
+              "since": 1579629661000
+            }
+          },
+          "label": "Pole 031",
+          "geohash": "dhtxp5z9cv2z",
+          "parentDomain": "Light",
+          "powerMeter": "Powermeter_54218",
+          "createTime": 1579643265393,
+          "isIndependent": true,
+          "providerDetails": {
+            "provider": "cimcon"
+          },
+          "thirdPartyId": "54218",
+          "status": "On",
+          "state": {
+            "reliability": 100.0,
+            "intensityLevel": {
+              "lastKnownValue": 100.0
+            },
+            "powerConsumption": -1.0
+          },
+          "geocoordinates": {
+            "longitude": -81.947632,
+            "latitude": 26.563898
+          },
+          "lastUpdated": 1582948878000,
+          "tenantId": "csc.com",
+          "isValid": true,
+          "private": {
+            "lamp_Status": "ON"
+          },
+          "mode": [
+            "Photocell"
+          ],
+          "locationId": [
+            "10094",
+            "10093",
+            "10092",
+            "10000"
+          ],
+          "applicableDomain": [
+            "Light"
+          ],
+          "locationName": [
+            "CapeCoral"
+          ]
+        }
+      },
+      {
+        "Light": {
+          "sid": "tacgk2zjyj4dc5ems7sk6bnejjccjps2",
+          "deviceState": {
+            "connState": {
+              "connected": true,
+              "since": 1579687307000
+            }
+          },
+          "label": "Pole 039",
+          "geohash": "dhtxp7bbc6my",
+          "parentDomain": "Light",
+          "powerMeter": "Powermeter_20992",
+          "createTime": 1579704403830,
+          "isIndependent": true,
+          "providerDetails": {
+            "provider": "cimcon"
+          },
+          "thirdPartyId": "20992",
+          "status": "On",
+          "state": {
+            "reliability": 100.0,
+            "intensityLevel": {
+              "lastKnownValue": 100.0
+            },
+            "powerConsumption": -1.0
+          },
+          "geocoordinates": {
+            "longitude": -81.94593,
+            "latitude": 26.56371
+          },
+          "lastUpdated": 1582948843000,
+          "tenantId": "csc.com",
+          "isValid": true,
+          "private": {
+            "lamp_Status": "ON"
+          },
+          "mode": [
+            "Photocell"
+          ],
+          "locationId": [
+            "10094",
+            "10093",
+            "10092",
+            "10000"
+          ],
+          "applicableDomain": [
+            "Light"
+          ],
+          "locationName": [
+            "CapeCoral"
+          ]
+        }
+      },
+      {
+        "Light": {
+          "sid": "trx5j2wfm3dcbss65wc6u2jdi377vwh5",
+          "deviceState": {
+            "connState": {
+              "connected": true,
+              "since": 1579703430000
+            }
+          },
+          "label": "Pole 071",
+          "geohash": "dhtxp5uj3m8w",
+          "parentDomain": "Light",
+          "powerMeter": "Powermeter_20347",
+          "createTime": 1579722402624,
+          "isIndependent": true,
+          "providerDetails": {
+            "provider": "cimcon"
+          },
+          "thirdPartyId": "20347",
+          "status": "On",
+          "state": {
+            "reliability": 100.0,
+            "intensityLevel": {
+              "lastKnownValue": 100.0
+            },
+            "powerConsumption": -1.0
+          },
+          "geocoordinates": {
+            "longitude": -81.95246,
+            "latitude": 26.5645
+          },
+          "lastUpdated": 1582948868000,
+          "tenantId": "csc.com",
+          "isValid": true,
+          "private": {
+            "lamp_Status": "ON"
+          },
+          "applicableDomain": [
+            "Light"
+          ],
+          "locationName": [
+            "CapeCoral"
+          ],
+          "mode": [
+            "Photocell"
+          ],
+          "locationId": [
+            "10094",
+            "10093",
+            "10092",
+            "10000"
+          ]
+        }
+      },
+      {
+        "Light": {
+          "sid": "ucnefx7mtemzbkumvflq563tsuss63ez",
+          "deviceState": {
+            "connState": {
+              "connected": true,
+              "since": 1579687305000
+            }
+          },
+          "label": "Pole 040",
+          "geohash": "dhtxp7b3946r",
+          "parentDomain": "Light",
+          "powerMeter": "Powermeter_54180",
+          "createTime": 1579704404758,
+          "isIndependent": true,
+          "providerDetails": {
+            "provider": "cimcon"
+          },
+          "thirdPartyId": "54180",
+          "status": "On",
+          "state": {
+            "reliability": 100.0,
+            "intensityLevel": {
+              "lastKnownValue": 100.0
+            },
+            "powerConsumption": -1.0
+          },
+          "geocoordinates": {
+            "longitude": -81.946632,
+            "latitude": 26.563839
+          },
+          "lastUpdated": 1582948806000,
+          "tenantId": "csc.com",
+          "isValid": true,
+          "private": {
+            "lamp_Status": "ON"
+          },
+          "mode": [
+            "Photocell"
+          ],
+          "locationName": [
+            "CapeCoral"
+          ],
+          "applicableDomain": [
+            "Light"
+          ],
+          "locationId": [
+            "10094",
+            "10093",
+            "10092",
+            "10000"
+          ]
+        }
+      },
+      {
+        "Light": {
+          "sid": "uhzcdgxsi4lqgz3kmltma7z37rjms4fj",
+          "deviceState": {
+            "connState": {
+              "connected": true,
+              "since": 1579687304000
+            }
+          },
+          "label": "Pole 045",
+          "geohash": "dhtxp5y3mev9",
+          "parentDomain": "Light",
+          "powerMeter": "Powermeter_54177",
+          "createTime": 1579708012996,
+          "isIndependent": true,
+          "providerDetails": {
+            "provider": "cimcon"
+          },
+          "thirdPartyId": "54177",
+          "status": "On",
+          "state": {
+            "reliability": 100.0,
+            "intensityLevel": {
+              "lastKnownValue": 100.0
+            },
+            "powerConsumption": -1.0
+          },
+          "geocoordinates": {
+            "longitude": -81.949181,
+            "latitude": 26.563803
+          },
+          "lastUpdated": 1582948865000,
+          "tenantId": "csc.com",
+          "isValid": true,
+          "private": {
+            "lamp_Status": "ON"
+          },
+          "applicableDomain": [
+            "Light"
+          ],
+          "locationName": [
+            "CapeCoral"
+          ],
+          "mode": [
+            "Photocell"
+          ],
+          "locationId": [
+            "10094",
+            "10093",
+            "10092",
+            "10000"
+          ]
+        }
+      },
+      {
+        "Light": {
+          "sid": "uqajpucptrf7eiuw2vaxtpzxqde7nl3j",
+          "deviceState": {
+            "connState": {
+              "connected": true,
+              "since": 1579703434000
+            }
+          },
+          "label": "Pole 074",
+          "geohash": "dhtxp5uw86vr",
+          "parentDomain": "Light",
+          "powerMeter": "Powermeter_20641",
+          "createTime": 1579722402897,
+          "isIndependent": true,
+          "providerDetails": {
+            "provider": "cimcon"
+          },
+          "thirdPartyId": "20641",
+          "status": "On",
+          "state": {
+            "reliability": 100.0,
+            "intensityLevel": {
+              "request": {
+                "value": 0E-10
+              },
+              "lastKnownValue": 100.0
+            },
+            "powerConsumption": -1.0
+          },
+          "geocoordinates": {
+            "longitude": -81.95181,
+            "latitude": 26.5647
+          },
+          "lastUpdated": 1582948863000,
+          "tenantId": "csc.com",
+          "isValid": true,
+          "private": {
+            "lamp_Status": "ON"
+          },
+          "mode": [
+            "Photocell"
+          ],
+          "locationId": [
+            "10094",
+            "10093",
+            "10092",
+            "10000"
+          ],
+          "applicableDomain": [
+            "Light"
+          ],
+          "locationName": [
+            "CapeCoral"
+          ]
+        }
+      },
+      {
+        "Light": {
+          "sid": "uxbo2kao2xyl7hvukzsf2mj2ymblwv7m",
+          "deviceState": {
+            "connState": {
+              "connected": true,
+              "since": 1579703429000
+            }
+          },
+          "label": "Pole 083",
+          "geohash": "dhtxp5gkjt22",
+          "parentDomain": "Light",
+          "powerMeter": "Powermeter_54196",
+          "createTime": 1579722404441,
+          "isIndependent": true,
+          "providerDetails": {
+            "provider": "cimcon"
+          },
+          "thirdPartyId": "54196",
+          "status": "On",
+          "state": {
+            "reliability": 100.0,
+            "intensityLevel": {
+              "lastKnownValue": 100.0
+            },
+            "powerConsumption": -1.0
+          },
+          "geocoordinates": {
+            "longitude": -81.953308,
+            "latitude": 26.564283
+          },
+          "lastUpdated": 1582948871000,
+          "tenantId": "csc.com",
+          "isValid": true,
+          "private": {
+            "lamp_Status": "ON"
+          },
+          "applicableDomain": [
+            "Light"
+          ],
+          "locationName": [
+            "CapeCoral"
+          ],
+          "mode": [
+            "Photocell"
+          ],
+          "locationId": [
+            "10094",
+            "10093",
+            "10092",
+            "10000"
+          ]
+        }
+      },
+      {
+        "Light": {
+          "sid": "v3t3fzyykvcktpbzxfrf3btwntgi33eo",
+          "deviceState": {
+            "connState": {
+              "connected": true,
+              "since": 1579629664000
+            }
+          },
+          "label": "Pole 010",
+          "geohash": "dhtxp5f8vhr6",
+          "parentDomain": "Light",
+          "powerMeter": "Powermeter_20863",
+          "createTime": 1579646830955,
+          "isIndependent": true,
+          "providerDetails": {
+            "provider": "cimcon"
+          },
+          "thirdPartyId": "20863",
+          "status": "On",
+          "state": {
+            "reliability": 100.0,
+            "intensityLevel": {
+              "request": {
+                "value": 0E-10
+              },
+              "lastKnownValue": 100.0
+            },
+            "powerConsumption": -1.0
+          },
+          "geocoordinates": {
+            "longitude": -81.95435,
+            "latitude": 26.56372
+          },
+          "lastUpdated": 1582948870000,
+          "tenantId": "csc.com",
+          "isValid": true,
+          "private": {
+            "lamp_Status": "ON"
+          },
+          "mode": [
+            "Photocell"
+          ],
+          "locationName": [
+            "CapeCoral"
+          ],
+          "applicableDomain": [
+            "Light"
+          ],
+          "locationId": [
+            "10094",
+            "10093",
+            "10092",
+            "10000"
+          ]
+        }
+      },
+      {
+        "Light": {
+          "sid": "vegfvnbpddzxh7y7wcd7upipybcikkvv",
+          "deviceState": {
+            "connState": {
+              "connected": true,
+              "since": 1579629668000
+            }
+          },
+          "label": "Pole 018",
+          "geohash": "dhtxp5u8qqvh",
+          "parentDomain": "Light",
+          "powerMeter": "Powermeter_54209",
+          "createTime": 1579639666318,
+          "isIndependent": true,
+          "providerDetails": {
+            "provider": "cimcon"
+          },
+          "thirdPartyId": "54209",
+          "status": "On",
+          "state": {
+            "reliability": 100.0,
+            "intensityLevel": {
+              "lastKnownValue": 100.0
+            },
+            "powerConsumption": -1.0
+          },
+          "geocoordinates": {
+            "longitude": -81.951553,
+            "latitude": 26.563648
+          },
+          "lastUpdated": 1582948863000,
+          "tenantId": "csc.com",
+          "isValid": true,
+          "private": {
+            "lamp_Status": "ON"
+          },
+          "mode": [
+            "Photocell"
+          ],
+          "locationId": [
+            "10094",
+            "10093",
+            "10092",
+            "10000"
+          ],
+          "applicableDomain": [
+            "Light"
+          ],
+          "locationName": [
+            "CapeCoral"
+          ]
+        }
+      },
+      {
+        "Light": {
+          "sid": "vixpfh2dk3jnz4v4be3hpf4m26l64c5e",
+          "deviceState": {
+            "connState": {
+              "connected": true,
+              "since": 1579701707000
+            }
+          },
+          "label": "Pole 078",
+          "geohash": "dhtxph5bqn8k",
+          "parentDomain": "Light",
+          "powerMeter": "Powermeter_20386",
+          "createTime": 1579722402713,
+          "isIndependent": true,
+          "providerDetails": {
+            "provider": "cimcon"
+          },
+          "thirdPartyId": "20386",
+          "status": "On",
+          "state": {
+            "reliability": 100.0,
+            "intensityLevel": {
+              "lastKnownValue": 100.0
+            },
+            "powerConsumption": -1.0
+          },
+          "geocoordinates": {
+            "longitude": -81.9526,
+            "latitude": 26.56502
+          },
+          "lastUpdated": 1582948862000,
+          "tenantId": "csc.com",
+          "isValid": true,
+          "private": {
+            "lamp_Status": "ON"
+          },
+          "mode": [
+            "Photocell"
+          ],
+          "locationId": [
+            "10094",
+            "10093",
+            "10092",
+            "10000"
+          ],
+          "applicableDomain": [
+            "Light"
+          ],
+          "locationName": [
+            "CapeCoral"
+          ]
+        }
+      },
+      {
+        "Light": {
+          "sid": "vsys4lgjhrjybdhhyy6o3jjhtz5w47iz",
+          "deviceState": {
+            "connState": {
+              "connected": true,
+              "since": 1579629666000
+            }
+          },
+          "label": "Pole 027",
+          "geohash": "dhtxp5y8bbwf",
+          "parentDomain": "Light",
+          "powerMeter": "Powermeter_20350",
+          "createTime": 1579643218533,
+          "isIndependent": true,
+          "providerDetails": {
+            "provider": "cimcon"
+          },
+          "thirdPartyId": "20350",
+          "status": "On",
+          "state": {
+            "reliability": 100.0,
+            "intensityLevel": {
+              "lastKnownValue": 100.0
+            },
+            "powerConsumption": -1.0
+          },
+          "geocoordinates": {
+            "longitude": -81.94904,
+            "latitude": 26.5637
+          },
+          "lastUpdated": 1582948803000,
+          "tenantId": "csc.com",
+          "isValid": true,
+          "private": {
+            "lamp_Status": "ON"
+          },
+          "mode": [
+            "Photocell"
+          ],
+          "locationName": [
+            "CapeCoral"
+          ],
+          "applicableDomain": [
+            "Light"
+          ],
+          "locationId": [
+            "10094",
+            "10093",
+            "10092",
+            "10000"
+          ]
+        }
+      },
+      {
+        "Light": {
+          "sid": "wf54mxpxq576erq4ttdnphxyoghrj5ab",
+          "deviceState": {
+            "connState": {
+              "connected": true,
+              "since": 1579690944000
+            }
+          },
+          "label": "Pole 050",
+          "geohash": "dhtxp5v96ghz",
+          "parentDomain": "Light",
+          "powerMeter": "Powermeter_20991",
+          "createTime": 1579708012150,
+          "isIndependent": true,
+          "providerDetails": {
+            "provider": "cimcon"
+          },
+          "thirdPartyId": "20991",
+          "status": "On",
+          "state": {
+            "reliability": 100.0,
+            "intensityLevel": {
+              "lastKnownValue": 100.0
+            },
+            "powerConsumption": -1.0
+          },
+          "geocoordinates": {
+            "longitude": -81.95033,
+            "latitude": 26.5638
+          },
+          "lastUpdated": 1582948863000,
+          "tenantId": "csc.com",
+          "isValid": true,
+          "private": {
+            "lamp_Status": "ON"
+          },
+          "locationId": [
+            "10094",
+            "10093",
+            "10092",
+            "10000"
+          ],
+          "applicableDomain": [
+            "Light"
+          ],
+          "locationName": [
+            "CapeCoral"
+          ],
+          "mode": [
+            "Photocell"
+          ]
+        }
+      },
+      {
+        "Light": {
+          "sid": "xcy3cajqykh2o5rlp2f5vxkvn5njx2vm",
+          "deviceState": {
+            "connState": {
+              "connected": true,
+              "since": 1579618861000
+            }
+          },
+          "label": "Pole 013",
+          "geohash": "dhtxp5g3qezc",
+          "parentDomain": "Light",
+          "powerMeter": "Powermeter_54207",
+          "createTime": 1579632430244,
+          "isIndependent": true,
+          "providerDetails": {
+            "provider": "cimcon"
+          },
+          "thirdPartyId": "54207",
+          "status": "On",
+          "state": {
+            "reliability": 100.0,
+            "intensityLevel": {
+              "lastKnownValue": 100.0
+            },
+            "powerConsumption": -1.0
+          },
+          "geocoordinates": {
+            "longitude": -81.953255,
+            "latitude": 26.563803
+          },
+          "lastUpdated": 1582948877000,
+          "tenantId": "csc.com",
+          "isValid": true,
+          "private": {
+            "lamp_Status": "ON"
+          },
+          "locationId": [
+            "10094",
+            "10093",
+            "10092",
+            "10000"
+          ],
+          "locationName": [
+            "CapeCoral"
+          ],
+          "applicableDomain": [
+            "Light"
+          ],
+          "mode": [
+            "Photocell"
+          ]
+        }
+      },
+      {
+        "Light": {
+          "sid": "xqy6exzbtor7mew3hn4piexind5csvr3",
+          "deviceState": {
+            "connState": {
+              "connected": true,
+              "since": 1579611517000
+            }
+          },
+          "label": "Pole 012",
+          "geohash": "dhtxp5fchy3u",
+          "parentDomain": "Light",
+          "powerMeter": "Powermeter_54208",
+          "createTime": 1579628832254,
+          "isIndependent": true,
+          "providerDetails": {
+            "provider": "cimcon"
+          },
+          "thirdPartyId": "54208",
+          "status": "On",
+          "state": {
+            "reliability": 100.0,
+            "intensityLevel": {
+              "lastKnownValue": 100.0
+            },
+            "powerConsumption": -1.0
+          },
+          "geocoordinates": {
+            "longitude": -81.954025,
+            "latitude": 26.563774
+          },
+          "lastUpdated": 1582948872000,
+          "tenantId": "csc.com",
+          "isValid": true,
+          "private": {
+            "lamp_Status": "ON"
+          },
+          "locationId": [
+            "10094",
+            "10093",
+            "10092",
+            "10000"
+          ],
+          "mode": [
+            "Photocell"
+          ],
+          "applicableDomain": [
+            "Light"
+          ],
+          "locationName": [
+            "CapeCoral"
+          ]
+        }
+      },
+      {
+        "Light": {
+          "sid": "yecdjjiefnumb35b5p4fowwo5stlcr2y",
+          "deviceState": {
+            "connState": {
+              "connected": true,
+              "since": 1579694463000
+            }
+          },
+          "label": "Pole 061",
+          "geohash": "dhtxp5fbgw99",
+          "parentDomain": "Light",
+          "powerMeter": "Powermeter_54183",
+          "createTime": 1579711617397,
+          "isIndependent": true,
+          "providerDetails": {
+            "provider": "cimcon"
+          },
+          "thirdPartyId": "54183",
+          "status": "On",
+          "state": {
+            "reliability": 100.0,
+            "intensityLevel": {
+              "lastKnownValue": 100.0
+            },
+            "powerConsumption": -1.0
+          },
+          "geocoordinates": {
+            "longitude": -81.954079,
+            "latitude": 26.563732
+          },
+          "lastUpdated": 1582948865000,
+          "tenantId": "csc.com",
+          "isValid": true,
+          "private": {
+            "lamp_Status": "ON"
+          },
+          "mode": [
+            "Photocell"
+          ],
+          "applicableDomain": [
+            "Light"
+          ],
+          "locationName": [
+            "CapeCoral"
+          ],
+          "locationId": [
+            "10094",
+            "10093",
+            "10092",
+            "10000"
+          ]
+        }
+      },
+      {
+        "Light": {
+          "sid": "yymslkbz22opgdps4phpzscwq2i4hko3",
+          "deviceState": {
+            "connState": {
+              "connected": true,
+              "since": 1579694463000
+            }
+          },
+          "label": "Pole 063",
+          "geohash": "dhtxp5f0pn7d",
+          "parentDomain": "Light",
+          "powerMeter": "Powermeter_54182",
+          "createTime": 1579711617320,
+          "isIndependent": true,
+          "providerDetails": {
+            "provider": "cimcon"
+          },
+          "thirdPartyId": "54182",
+          "status": "On",
+          "state": {
+            "reliability": 100.0,
+            "intensityLevel": {
+              "lastKnownValue": 100.0
+            },
+            "powerConsumption": -1.0
+          },
+          "geocoordinates": {
+            "longitude": -81.954956,
+            "latitude": 26.563602
+          },
+          "lastUpdated": 1582948876000,
+          "tenantId": "csc.com",
+          "isValid": true,
+          "private": {
+            "lamp_Status": "ON"
+          },
+          "locationId": [
+            "10094",
+            "10093",
+            "10092",
+            "10000"
+          ],
+          "locationName": [
+            "CapeCoral"
+          ],
+          "applicableDomain": [
+            "Light"
+          ],
+          "mode": [
+            "Photocell"
+          ]
+        }
+      },
+      {
+        "Light": {
+          "sid": "zbb3lo7g7ghps4r44cloklnzmc7gto4i",
+          "deviceState": {
+            "connState": {
+              "connected": true,
+              "since": 1579694460000
+            }
+          },
+          "label": "Pole 064",
+          "geohash": "dhtxp5f0xbru",
+          "parentDomain": "Light",
+          "powerMeter": "Powermeter_54173",
+          "createTime": 1579711617112,
+          "isIndependent": true,
+          "providerDetails": {
+            "provider": "cimcon"
+          },
+          "thirdPartyId": "54173",
+          "status": "On",
+          "state": {
+            "reliability": 100.0,
+            "intensityLevel": {
+              "lastKnownValue": 100.0
+            },
+            "powerConsumption": -1.0
+          },
+          "geocoordinates": {
+            "longitude": -81.954918,
+            "latitude": 26.563656
+          },
+          "lastUpdated": 1582948874000,
+          "tenantId": "csc.com",
+          "isValid": true,
+          "private": {
+            "lamp_Status": "ON"
+          },
+          "locationId": [
+            "10094",
+            "10093",
+            "10092",
+            "10000"
+          ],
+          "applicableDomain": [
+            "Light"
+          ],
+          "locationName": [
+            "CapeCoral"
+          ],
+          "mode": [
+            "Photocell"
+          ]
+        }
+      },
+      {
+        "Light": {
+          "sid": "zmt46j2zvcnxajtdi5ai2dquuuvteibt",
+          "deviceState": {
+            "connState": {
+              "connected": true,
+              "since": 1579705262000
+            }
+          },
+          "label": "Pole 087",
+          "geohash": "dhtxp5uq69ej",
+          "parentDomain": "Light",
+          "powerMeter": "Powermeter_20248",
+          "createTime": 1579726002499,
+          "isIndependent": true,
+          "providerDetails": {
+            "provider": "cimcon"
+          },
+          "thirdPartyId": "20248",
+          "status": "On",
+          "state": {
+            "reliability": 100.0,
+            "intensityLevel": {
+              "lastKnownValue": 100.0
+            },
+            "powerConsumption": -1.0
+          },
+          "geocoordinates": {
+            "longitude": -81.95206,
+            "latitude": 26.56465
+          },
+          "lastUpdated": 1582948819000,
+          "tenantId": "csc.com",
+          "isValid": true,
+          "private": {
+            "lamp_Status": "ON"
+          },
+          "applicableDomain": [
+            "Light"
+          ],
+          "locationName": [
+            "CapeCoral"
+          ],
+          "mode": [
+            "Photocell"
+          ],
+          "locationId": [
+            "10094",
+            "10093",
+            "10092",
+            "10000"
+          ]
+        }
+      },
+      {
+        "Light": {
+          "sid": "2k6honuuepkbbbeibdyvrzfdwot6au3c",
+          "deviceState": {
+            "connState": {
+              "connected": true,
+              "since": 1581068297000
+            }
+          },
+          "label": "Pole 044",
+          "geohash": "dhtxp5ybk6w7",
+          "parentDomain": "Light",
+          "powerMeter": "Powermeter_54205",
+          "createTime": 1581086838223,
+          "isIndependent": true,
+          "providerDetails": {
+            "provider": "cimcon"
+          },
+          "thirdPartyId": "54205",
+          "status": "On",
+          "state": {
+            "reliability": 100.0,
+            "intensityLevel": {
+              "lastKnownValue": 100.0
+            },
+            "powerConsumption": -1.0
+          },
+          "geocoordinates": {
+            "longitude": -81.948547,
+            "latitude": 26.563625
+          },
+          "lastUpdated": 1582948857000,
+          "tenantId": "csc.com",
+          "isValid": true,
+          "private": {
+            "lamp_Status": "ON"
+          },
+          "locationName": [
+            "CapeCoral"
+          ],
+          "mode": [
+            "Photocell"
+          ],
+          "locationId": [
+            "10094",
+            "10093",
+            "10092",
+            "10000"
+          ],
+          "applicableDomain": [
+            "Light"
+          ]
+        }
+      },
+      {
+        "Light": {
+          "sid": "2ml3vggzybgauc3r2snenhq46iqtkibl",
+          "deviceState": {
+            "connState": {
+              "connected": true,
+              "since": 1580135462000
+            }
+          },
+          "label": "Pole 005",
+          "geohash": "dhtxp59pvt0m",
+          "parentDomain": "Light",
+          "powerMeter": "Powermeter_54214",
+          "createTime": 1581000432680,
+          "isIndependent": true,
+          "providerDetails": {
+            "provider": "cimcon"
+          },
+          "thirdPartyId": "54214",
+          "status": "On",
+          "state": {
+            "reliability": 100.0,
+            "intensityLevel": {
+              "lastKnownValue": 100.0
+            },
+            "powerConsumption": -1.0
+          },
+          "geocoordinates": {
+            "longitude": -81.956398,
+            "latitude": 26.563553
+          },
+          "lastUpdated": 1582948872000,
+          "tenantId": "csc.com",
+          "isValid": true,
+          "private": {
+            "lamp_Status": "ON"
+          },
+          "mode": [
+            "Photocell"
+          ],
+          "locationId": [
+            "10094",
+            "10093",
+            "10092",
+            "10000"
+          ],
+          "applicableDomain": [
+            "Light"
+          ],
+          "locationName": [
+            "CapeCoral"
+          ]
+        }
+      },
+      {
+        "Light": {
+          "sid": "3hhzhy65o6vuep73afu2lhl3igvfuagx",
+          "deviceState": {
+            "connState": {
+              "connected": true,
+              "since": 1579687304000
+            }
+          },
+          "label": "Pole 037",
+          "geohash": "dhtxp7c150p1",
+          "parentDomain": "Light",
+          "powerMeter": "Powermeter_20885",
+          "createTime": 1579704403504,
+          "isIndependent": true,
+          "providerDetails": {
+            "provider": "cimcon"
+          },
+          "thirdPartyId": "20885",
+          "status": "On",
+          "state": {
+            "reliability": 100.0,
+            "intensityLevel": {
+              "lastKnownValue": 100.0
+            },
+            "powerConsumption": -1.0
+          },
+          "geocoordinates": {
+            "longitude": -81.94551,
+            "latitude": 26.56374
+          },
+          "lastUpdated": 1582948864000,
+          "tenantId": "csc.com",
+          "isValid": true,
+          "private": {
+            "lamp_Status": "ON"
+          },
+          "mode": [
+            "Photocell"
+          ],
+          "locationId": [
+            "10094",
+            "10093",
+            "10092",
+            "10000"
+          ],
+          "applicableDomain": [
+            "Light"
+          ],
+          "locationName": [
+            "CapeCoral"
+          ]
+        }
+      },
+      {
+        "Light": {
+          "sid": "3m5p4fqwpq75wfuyixldsspqhkdtkvts",
+          "deviceState": {
+            "connState": {
+              "connected": true,
+              "since": 1579611517000
+            }
+          },
+          "label": "Pole 008",
+          "geohash": "dhtxp5cbuurf",
+          "parentDomain": "Light",
+          "powerMeter": "Powermeter_20894",
+          "createTime": 1579628824736,
+          "isIndependent": true,
+          "providerDetails": {
+            "provider": "cimcon"
+          },
+          "thirdPartyId": "20894",
+          "status": "On",
+          "state": {
+            "reliability": 100.0,
+            "intensityLevel": {
+              "lastKnownValue": 100.0
+            },
+            "powerConsumption": -1.0
+          },
+          "geocoordinates": {
+            "longitude": -81.95539,
+            "latitude": 26.56372
+          },
+          "lastUpdated": 1582948862000,
+          "tenantId": "csc.com",
+          "isValid": true,
+          "private": {
+            "lamp_Status": "ON"
+          },
+          "mode": [
+            "Photocell"
+          ],
+          "locationId": [
+            "10094",
+            "10093",
+            "10092",
+            "10000"
+          ],
+          "applicableDomain": [
+            "Light"
+          ],
+          "locationName": [
+            "CapeCoral"
+          ]
+        }
+      },
+      {
+        "Light": {
+          "sid": "3o4rbeersfojop5ojtievq7bs2dqz72g",
+          "deviceState": {
+            "connState": {
+              "connected": true,
+              "since": 1579694460000
+            }
+          },
+          "label": "Pole 059",
+          "geohash": "dhtxp5g1jjds",
+          "parentDomain": "Light",
+          "powerMeter": "Powermeter_20678",
+          "createTime": 1579711614713,
+          "isIndependent": true,
+          "providerDetails": {
+            "provider": "cimcon"
+          },
+          "thirdPartyId": "20678",
+          "status": "On",
+          "state": {
+            "reliability": 100.0,
+            "intensityLevel": {
+              "lastKnownValue": 100.0
+            },
+            "powerConsumption": -1.0
+          },
+          "geocoordinates": {
+            "longitude": -81.95367,
+            "latitude": 26.56377
+          },
+          "lastUpdated": 1582948869000,
+          "tenantId": "csc.com",
+          "isValid": true,
+          "private": {
+            "lamp_Status": "ON"
+          },
+          "mode": [
+            "Photocell"
+          ],
+          "locationId": [
+            "10094",
+            "10093",
+            "10092",
+            "10000"
+          ],
+          "applicableDomain": [
+            "Light"
+          ],
+          "locationName": [
+            "CapeCoral"
+          ]
+        }
+      },
+      {
+        "Light": {
+          "sid": "3pd62hcna4qaitw5ve42qwetffpgp4tf",
+          "deviceState": {
+            "connState": {
+              "connected": true,
+              "since": 1579611512000
+            }
+          },
+          "label": "Pole 014",
+          "geohash": "dhtxp5g8xfrv",
+          "parentDomain": "Light",
+          "powerMeter": "Powermeter_54217",
+          "createTime": 1579628832959,
+          "isIndependent": true,
+          "providerDetails": {
+            "provider": "cimcon"
+          },
+          "thirdPartyId": "54217",
+          "status": "On",
+          "state": {
+            "reliability": 100.0,
+            "intensityLevel": {
+              "lastKnownValue": 100.0
+            },
+            "powerConsumption": -1.0
+          },
+          "geocoordinates": {
+            "longitude": -81.952858,
+            "latitude": 26.563667
+          },
+          "lastUpdated": 1582948864000,
+          "tenantId": "csc.com",
+          "isValid": true,
+          "private": {
+            "lamp_Status": "ON"
+          },
+          "mode": [
+            "Photocell"
+          ],
+          "locationId": [
+            "10094",
+            "10093",
+            "10092",
+            "10000"
+          ],
+          "applicableDomain": [
+            "Light"
+          ],
+          "locationName": [
+            "CapeCoral"
+          ]
+        }
+      },
+      {
+        "Light": {
+          "sid": "3vp2vtk233cgftbn4wgrhbg5elk6hpas",
+          "deviceState": {
+            "connState": {
+              "connected": true,
+              "since": 1579690932000
+            }
+          },
+          "label": "Pole 049",
+          "geohash": "dhtxp5v9vhp8",
+          "parentDomain": "Light",
+          "powerMeter": "Powermeter_20287",
+          "createTime": 1579708002843,
+          "isIndependent": true,
+          "providerDetails": {
+            "provider": "cimcon"
+          },
+          "thirdPartyId": "20287",
+          "status": "On",
+          "state": {
+            "reliability": 100.0,
+            "intensityLevel": {
+              "request": {
+                "value": 0E-10
+              },
+              "lastKnownValue": 100.0
+            },
+            "powerConsumption": -1.0
+          },
+          "geocoordinates": {
+            "longitude": -81.95023,
+            "latitude": 26.56389
+          },
+          "lastUpdated": 1582948868000,
+          "tenantId": "csc.com",
+          "isValid": true,
+          "private": {
+            "lamp_Status": "ON"
+          },
+          "mode": [
+            "Photocell"
+          ],
+          "locationId": [
+            "10094",
+            "10093",
+            "10092",
+            "10000"
+          ],
+          "applicableDomain": [
+            "Light"
+          ],
+          "locationName": [
+            "CapeCoral"
+          ]
+        }
+      },
+      {
+        "Light": {
+          "sid": "4ffang4ftyu5fbj7qedthristqkomk66",
+          "deviceState": {
+            "connState": {
+              "connected": true,
+              "since": 1579629662000
+            }
+          },
+          "label": "Pole 030",
+          "geohash": "dhtxp5z8935k",
+          "parentDomain": "Light",
+          "powerMeter": "Powermeter_20476",
+          "createTime": 1579646829044,
+          "isIndependent": true,
+          "providerDetails": {
+            "provider": "cimcon"
+          },
+          "thirdPartyId": "20476",
+          "status": "On",
+          "state": {
+            "reliability": 100.0,
+            "intensityLevel": {
+              "lastKnownValue": 100.0
+            },
+            "powerConsumption": -1.0
+          },
+          "geocoordinates": {
+            "longitude": -81.94765,
+            "latitude": 26.56366
+          },
+          "lastUpdated": 1582948868000,
+          "tenantId": "csc.com",
+          "isValid": true,
+          "private": {
+            "lamp_Status": "ON"
+          },
+          "mode": [
+            "Photocell"
+          ],
+          "locationId": [
+            "10094",
+            "10093",
+            "10092",
+            "10000"
+          ],
+          "applicableDomain": [
+            "Light"
+          ],
+          "locationName": [
+            "CapeCoral"
+          ]
+        }
+      },
+      {
+        "Light": {
+          "sid": "4zibg722sy2bx6b6rfglsh6xxtxa5sbl",
+          "deviceState": {
+            "connState": {
+              "connected": true,
+              "since": 1579629660000
+            }
+          },
+          "label": "Pole 032",
+          "geohash": "dhtxp7b0nvmu",
+          "parentDomain": "Light",
+          "powerMeter": "Powermeter_54212",
+          "createTime": 1579643264068,
+          "isIndependent": true,
+          "providerDetails": {
+            "provider": "cimcon"
+          },
+          "thirdPartyId": "54212",
+          "status": "On",
+          "state": {
+            "reliability": 100.0,
+            "intensityLevel": {
+              "lastKnownValue": 100.0
+            },
+            "powerConsumption": -1.0
+          },
+          "geocoordinates": {
+            "longitude": -81.946724,
+            "latitude": 26.563597
+          },
+          "lastUpdated": 1582948824000,
+          "tenantId": "csc.com",
+          "isValid": true,
+          "private": {
+            "lamp_Status": "ON"
+          },
+          "mode": [
+            "Photocell"
+          ],
+          "locationId": [
+            "10094",
+            "10093",
+            "10092",
+            "10000"
+          ],
+          "applicableDomain": [
+            "Light"
+          ],
+          "locationName": [
+            "CapeCoral"
+          ]
+        }
+      },
+      {
+        "Light": {
+          "sid": "5bnpmbkm6h43lgnse3pm5naholyyelyn",
+          "deviceState": {
+            "connState": {
+              "connected": true,
+              "since": 1579611518000
+            }
+          },
+          "label": "Pole 006",
+          "geohash": "dhtxp5c2mq4u",
+          "parentDomain": "Light",
+          "powerMeter": "Powermeter_54210",
+          "createTime": 1579628832595,
+          "isIndependent": true,
+          "providerDetails": {
+            "provider": "cimcon"
+          },
+          "thirdPartyId": "54210",
+          "status": "On",
+          "state": {
+            "reliability": 100.0,
+            "intensityLevel": {
+              "lastKnownValue": 100.0
+            },
+            "powerConsumption": -1.0
+          },
+          "geocoordinates": {
+            "longitude": -81.956062,
+            "latitude": 26.563644
+          },
+          "lastUpdated": 1582948872000,
+          "tenantId": "csc.com",
+          "isValid": true,
+          "private": {
+            "lamp_Status": "ON"
+          },
+          "mode": [
+            "Photocell"
+          ],
+          "locationId": [
+            "10094",
+            "10093",
+            "10092",
+            "10000"
+          ],
+          "applicableDomain": [
+            "Light"
+          ],
+          "locationName": [
+            "CapeCoral"
+          ]
+        }
+      },
+      {
+        "Light": {
+          "sid": "6bjhdcd6ges3asbcq6lu6sem2sqj7ra2",
+          "deviceState": {
+            "connState": {
+              "connected": true,
+              "since": 1579629667000
+            }
+          },
+          "label": "Pole 033",
+          "geohash": "dhtxp7b2mm6h",
+          "parentDomain": "Light",
+          "powerMeter": "Powermeter_20965",
+          "createTime": 1579643228152,
+          "isIndependent": true,
+          "providerDetails": {
+            "provider": "cimcon"
+          },
+          "thirdPartyId": "20965",
+          "status": "On",
+          "state": {
+            "reliability": 100.0,
+            "intensityLevel": {
+              "request": {
+                "value": 0E-10
+              },
+              "lastKnownValue": 100.0
+            },
+            "powerConsumption": -1.0
+          },
+          "geocoordinates": {
+            "longitude": -81.94645,
+            "latitude": 26.56364
+          },
+          "lastUpdated": 1582948779000,
+          "tenantId": "csc.com",
+          "isValid": true,
+          "private": {
+            "lamp_Status": "ON"
+          },
+          "mode": [
+            "Photocell"
+          ],
+          "locationId": [
+            "10094",
+            "10093",
+            "10092",
+            "10000"
+          ],
+          "applicableDomain": [
+            "Light"
+          ],
+          "locationName": [
+            "CapeCoral"
+          ]
+        }
+      },
+      {
+        "Light": {
+          "sid": "6ctcjrfqacatwhppqwx3b7weiishyhib",
+          "deviceState": {
+            "connState": {
+              "connected": true,
+              "since": 1579629667000
+            }
+          },
+          "label": "Pole 035",
+          "geohash": "dhtxp7bbm9sj",
+          "parentDomain": "Light",
+          "powerMeter": "Powermeter_20125",
+          "createTime": 1579643218396,
+          "isIndependent": true,
+          "providerDetails": {
+            "provider": "cimcon"
+          },
+          "thirdPartyId": "20125",
+          "status": "On",
+          "state": {
+            "reliability": 100.0,
+            "intensityLevel": {
+              "lastKnownValue": 100.0
+            },
+            "powerConsumption": -1.0
+          },
+          "geocoordinates": {
+            "longitude": -81.94575,
+            "latitude": 26.56362
+          },
+          "lastUpdated": 1582948887000,
+          "tenantId": "csc.com",
+          "isValid": true,
+          "private": {
+            "lamp_Status": "ON"
+          },
+          "mode": [
+            "Photocell"
+          ],
+          "locationId": [
+            "10094",
+            "10093",
+            "10092",
+            "10000"
+          ],
+          "applicableDomain": [
+            "Light"
+          ],
+          "locationName": [
+            "CapeCoral"
+          ]
+        }
+      },
+      {
+        "Light": {
+          "sid": "74wckesubdm4idy76zttdckqa3e6r5zw",
+          "deviceState": {
+            "connState": {
+              "connected": true,
+              "since": 1579703430000
+            }
+          },
+          "label": "Pole 075",
+          "geohash": "dhtxphh06em3",
+          "parentDomain": "Light",
+          "powerMeter": "Powermeter_54178",
+          "createTime": 1579722403996,
+          "isIndependent": true,
+          "providerDetails": {
+            "provider": "cimcon"
+          },
+          "thirdPartyId": "54178",
+          "status": "On",
+          "state": {
+            "reliability": 100.0,
+            "intensityLevel": {
+              "lastKnownValue": 100.0
+            },
+            "powerConsumption": -1.0
+          },
+          "geocoordinates": {
+            "longitude": -81.9524,
+            "latitude": 26.565002
+          },
+          "lastUpdated": 1582948866000,
+          "tenantId": "csc.com",
+          "isValid": true,
+          "private": {
+            "lamp_Status": "ON"
+          },
+          "mode": [
+            "Photocell"
+          ],
+          "locationId": [
+            "10094",
+            "10093",
+            "10092",
+            "10000"
+          ],
+          "applicableDomain": [
+            "Light"
+          ],
+          "locationName": [
+            "CapeCoral"
+          ]
+        }
+      },
+      {
+        "Light": {
+          "sid": "7ozgks6zpxttsscyr6wzixg72nx7adai",
+          "deviceState": {
+            "connState": {
+              "connected": true,
+              "since": 1579687304000
+            }
+          },
+          "label": "Pole 042",
+          "geohash": "dhtxp5z3hbcc",
+          "parentDomain": "Light",
+          "powerMeter": "Powermeter_54199",
+          "createTime": 1579704404833,
+          "isIndependent": true,
+          "providerDetails": {
+            "provider": "cimcon"
+          },
+          "thirdPartyId": "54199",
+          "status": "On",
+          "state": {
+            "reliability": 100.0,
+            "intensityLevel": {
+              "lastKnownValue": 100.0
+            },
+            "powerConsumption": -1.0
+          },
+          "geocoordinates": {
+            "longitude": -81.947845,
+            "latitude": 26.563744
+          },
+          "lastUpdated": 1582948876000,
+          "tenantId": "csc.com",
+          "isValid": true,
+          "private": {
+            "lamp_Status": "ON"
+          },
+          "mode": [
+            "Photocell"
+          ],
+          "locationId": [
+            "10094",
+            "10093",
+            "10092",
+            "10000"
+          ],
+          "applicableDomain": [
+            "Light"
+          ],
+          "locationName": [
+            "CapeCoral"
+          ]
+        }
+      },
+      {
+        "Light": {
+          "sid": "ahj4dtyg5uqyiqzkmplk6qhyv6l5ajjv",
+          "deviceState": {
+            "connState": {
+              "connected": true,
+              "since": 1579690886000
+            }
+          },
+          "label": "Pole 054",
+          "geohash": "dhtxp5u8cy4j",
+          "parentDomain": "Light",
+          "powerMeter": "Powermeter_17546",
+          "createTime": 1579711613624,
+          "isIndependent": true,
+          "providerDetails": {
+            "provider": "cimcon"
+          },
+          "thirdPartyId": "17546",
+          "status": "On",
+          "state": {
+            "reliability": 100.0,
+            "intensityLevel": {
+              "request": {
+                "value": 0E-10
+              },
+              "lastKnownValue": 100.0
+            },
+            "powerConsumption": -1.0
+          },
+          "geocoordinates": {
+            "longitude": -81.95175,
+            "latitude": 26.56373
+          },
+          "lastUpdated": 1582948865000,
+          "tenantId": "csc.com",
+          "isValid": true,
+          "private": {
+            "lamp_Status": "ON"
+          },
+          "mode": [
+            "Photocell"
+          ],
+          "locationId": [
+            "10094",
+            "10093",
+            "10092",
+            "10000"
+          ],
+          "applicableDomain": [
+            "Light"
+          ],
+          "locationName": [
+            "CapeCoral"
+          ]
+        }
+      },
+      {
+        "Light": {
+          "sid": "ajk6uqkuwznmnce44cz5uptqo2ohiivm",
+          "deviceState": {
+            "connState": {
+              "connected": true,
+              "since": 1579622475000
+            }
+          },
+          "label": "Pole 023",
+          "geohash": "dhtxp5v8n0m7",
+          "parentDomain": "Light",
+          "powerMeter": "Powermeter_20953",
+          "createTime": 1579643227382,
+          "isIndependent": true,
+          "providerDetails": {
+            "provider": "cimcon"
+          },
+          "thirdPartyId": "20953",
+          "status": "On",
+          "state": {
+            "reliability": 100.0,
+            "intensityLevel": {
+              "lastKnownValue": 100.0
+            },
+            "powerConsumption": -1.0
+          },
+          "geocoordinates": {
+            "longitude": -81.95019,
+            "latitude": 26.56357
+          },
+          "lastUpdated": 1582948862000,
+          "tenantId": "csc.com",
+          "isValid": true,
+          "private": {
+            "lamp_Status": "ON"
+          },
+          "locationId": [
+            "10094",
+            "10093",
+            "10092",
+            "10000"
+          ],
+          "mode": [
+            "Photocell"
+          ],
+          "locationName": [
+            "CapeCoral"
+          ],
+          "applicableDomain": [
+            "Light"
+          ]
+        }
+      },
+      {
+        "Light": {
+          "sid": "anklcgxtc7su5bhs253i5khou7p236xi",
+          "deviceState": {
+            "connState": {
+              "connected": true,
+              "since": 1579694467000
+            }
+          },
+          "label": "Pole 066",
+          "geohash": "dhtxp5c3mnuy",
+          "parentDomain": "Light",
+          "powerMeter": "Powermeter_17656",
+          "createTime": 1579711613762,
+          "isIndependent": true,
+          "providerDetails": {
+            "provider": "cimcon"
+          },
+          "thirdPartyId": "17656",
+          "status": "On",
+          "state": {
+            "reliability": 100.0,
+            "intensityLevel": {
+              "lastKnownValue": 100.0
+            },
+            "powerConsumption": -1.0
+          },
+          "geocoordinates": {
+            "longitude": -81.95607,
+            "latitude": 26.56382
+          },
+          "lastUpdated": 1582948871000,
+          "tenantId": "csc.com",
+          "isValid": true,
+          "private": {
+            "lamp_Status": "ON"
+          },
+          "locationName": [
+            "CapeCoral"
+          ],
+          "applicableDomain": [
+            "Light"
+          ],
+          "locationId": [
+            "10094",
+            "10093",
+            "10092",
+            "10000"
+          ],
+          "mode": [
+            "Photocell"
+          ]
+        }
+      },
+      {
+        "Light": {
+          "sid": "bmkw7hbbtqnvamb3pxos6bimpnx54zkw",
+          "deviceState": {
+            "connState": {
+              "connected": true,
+              "since": 1579611516000
+            }
+          },
+          "label": "Pole 015",
+          "geohash": "dhtxp5gbvb8f",
+          "parentDomain": "Light",
+          "powerMeter": "Powermeter_19880",
+          "createTime": 1579632421955,
+          "isIndependent": true,
+          "providerDetails": {
+            "provider": "cimcon"
+          },
+          "thirdPartyId": "19880",
+          "status": "On",
+          "state": {
+            "reliability": 100.0,
+            "intensityLevel": {
+              "lastKnownValue": 100.0
+            },
+            "powerConsumption": -1.0
+          },
+          "geocoordinates": {
+            "longitude": -81.95261,
+            "latitude": 26.5637
+          },
+          "lastUpdated": 1582948868000,
+          "tenantId": "csc.com",
+          "isValid": true,
+          "private": {
+            "lamp_Status": "ON"
+          },
+          "locationName": [
+            "CapeCoral"
+          ],
+          "applicableDomain": [
+            "Light"
+          ],
+          "locationId": [
+            "10094",
+            "10093",
+            "10092",
+            "10000"
+          ],
+          "mode": [
+            "Photocell"
+          ]
+        }
+      },
+      {
+        "Light": {
+          "sid": "bmqdrtlsu3bsyorkapq2qblvabwrr2jf",
+          "deviceState": {
+            "connState": {
+              "connected": true,
+              "since": 1579694493000
+            }
+          },
+          "label": "Pole 058",
+          "geohash": "dhtxp5g93vhd",
+          "parentDomain": "Light",
+          "powerMeter": "Powermeter_20955",
+          "createTime": 1579711615406,
+          "isIndependent": true,
+          "providerDetails": {
+            "provider": "cimcon"
+          },
+          "thirdPartyId": "20955",
+          "status": "On",
+          "state": {
+            "reliability": 100.0,
+            "intensityLevel": {
+              "lastKnownValue": 100.0
+            },
+            "powerConsumption": -1.0
+          },
+          "geocoordinates": {
+            "longitude": -81.95312,
+            "latitude": 26.56381
+          },
+          "lastUpdated": 1582948867000,
+          "tenantId": "csc.com",
+          "isValid": true,
+          "private": {
+            "lamp_Status": "ON"
+          },
+          "locationName": [
+            "CapeCoral"
+          ],
+          "applicableDomain": [
+            "Light"
+          ],
+          "locationId": [
+            "10094",
+            "10093",
+            "10092",
+            "10000"
+          ],
+          "mode": [
+            "Photocell"
+          ]
+        }
+      },
+      {
+        "Light": {
+          "sid": "bpibu3wvpng2dhsi3zfnymtsc33khkko",
+          "deviceState": {
+            "connState": {
+              "connected": true,
+              "since": 1579703427000
+            }
+          },
+          "label": "Pole 077",
+          "geohash": "dhtxp5up3epx",
+          "parentDomain": "Light",
+          "powerMeter": "Powermeter_18768",
+          "createTime": 1579722402163,
+          "isIndependent": true,
+          "providerDetails": {
+            "provider": "cimcon"
+          },
+          "thirdPartyId": "18768",
+          "status": "On",
+          "state": {
+            "reliability": 100.0,
+            "intensityLevel": {
+              "lastKnownValue": 100.0
+            },
+            "powerConsumption": -1.0
+          },
+          "geocoordinates": {
+            "longitude": -81.95244,
+            "latitude": 26.56483
+          },
+          "lastUpdated": 1582948830000,
+          "tenantId": "csc.com",
+          "isValid": true,
+          "private": {
+            "lamp_Status": "ON"
+          },
+          "locationName": [
+            "CapeCoral"
+          ],
+          "applicableDomain": [
+            "Light"
+          ],
+          "locationId": [
+            "10094",
+            "10093",
+            "10092",
+            "10000"
+          ],
+          "mode": [
+            "Photocell"
+          ]
+        }
+      },
+      {
+        "Light": {
+          "sid": "bqqr2jlbeqglfyxbubnzzfvpj2kpdut7",
+          "deviceState": {
+            "connState": {
+              "connected": true,
+              "since": 1580135461000
+            }
+          },
+          "label": "Pole 003",
+          "geohash": "dhtxp5b86neb",
+          "parentDomain": "Light",
+          "powerMeter": "Powermeter_54203",
+          "createTime": 1581000430964,
+          "isIndependent": true,
+          "providerDetails": {
+            "provider": "cimcon"
+          },
+          "thirdPartyId": "54203",
+          "status": "On",
+          "state": {
+            "reliability": 100.0,
+            "intensityLevel": {
+              "lastKnownValue": 100.0
+            },
+            "powerConsumption": -1.0
+          },
+          "geocoordinates": {
+            "longitude": -81.95723,
+            "latitude": 26.563646
+          },
+          "lastUpdated": 1582948879000,
+          "tenantId": "csc.com",
+          "isValid": true,
+          "private": {
+            "lamp_Status": "ON"
+          },
+          "mode": [
+            "Photocell"
+          ],
+          "locationName": [
+            "CapeCoral"
+          ],
+          "applicableDomain": [
+            "Light"
+          ],
+          "locationId": [
+            "10094",
+            "10093",
+            "10092",
+            "10000"
+          ]
+        }
+      },
+      {
+        "Light": {
+          "sid": "ce72r2pyqhdavbwq23tco5qafbjlqogu",
+          "deviceState": {
+            "connState": {
+              "connected": true,
+              "since": 1579694460000
+            }
+          },
+          "label": "Pole 067",
+          "geohash": "dhtxp5c0ykhs",
+          "parentDomain": "Light",
+          "powerMeter": "Powermeter_54194",
+          "createTime": 1579711617841,
+          "isIndependent": true,
+          "providerDetails": {
+            "provider": "cimcon"
+          },
+          "thirdPartyId": "54194",
+          "status": "On",
+          "state": {
+            "reliability": 100.0,
+            "intensityLevel": {
+              "lastKnownValue": 100.0
+            },
+            "powerConsumption": -1.0
+          },
+          "geocoordinates": {
+            "longitude": -81.95636,
+            "latitude": 26.563719
+          },
+          "lastUpdated": 1582948869000,
+          "tenantId": "csc.com",
+          "isValid": true,
+          "private": {
+            "lamp_Status": "ON"
+          },
+          "locationId": [
+            "10094",
+            "10093",
+            "10092",
+            "10000"
+          ],
+          "mode": [
+            "Photocell"
+          ],
+          "applicableDomain": [
+            "Light"
+          ],
+          "locationName": [
+            "CapeCoral"
+          ]
+        }
+      },
+      {
+        "Light": {
+          "sid": "cq6lrb7blsdi245xk6yq7ov26ztznxuf",
+          "deviceState": {
+            "connState": {
+              "connected": true,
+              "since": 1579690889000
+            }
+          },
+          "label": "Pole 051",
+          "geohash": "dhtxp5uuyfmf",
+          "parentDomain": "Light",
+          "powerMeter": "Powermeter_54200",
+          "createTime": 1579708013372,
+          "isIndependent": true,
+          "providerDetails": {
+            "provider": "cimcon"
+          },
+          "thirdPartyId": "54200",
+          "status": "On",
+          "state": {
+            "reliability": 100.0,
+            "intensityLevel": {
+              "lastKnownValue": 100.0
+            },
+            "powerConsumption": -1.0
+          },
+          "geocoordinates": {
+            "longitude": -81.951187,
+            "latitude": 26.564396
+          },
+          "lastUpdated": 1582948867000,
+          "tenantId": "csc.com",
+          "isValid": true,
+          "private": {
+            "lamp_Status": "ON"
+          },
+          "applicableDomain": [
+            "Light"
+          ],
+          "locationName": [
+            "CapeCoral"
+          ],
+          "mode": [
+            "Photocell"
+          ],
+          "locationId": [
+            "10094",
+            "10093",
+            "10092",
+            "10000"
+          ]
+        }
+      },
+      {
+        "Light": {
+          "sid": "ct6s72iqdtqmudzersmxolivc47maivx",
+          "deviceState": {
+            "connState": {
+              "connected": true,
+              "since": 1579694498000
+            }
+          },
+          "label": "Pole 068",
+          "geohash": "dhtxp5bc3t56",
+          "parentDomain": "Light",
+          "powerMeter": "Powermeter_54186",
+          "createTime": 1579711617478,
+          "isIndependent": true,
+          "providerDetails": {
+            "provider": "cimcon"
+          },
+          "thirdPartyId": "54186",
+          "status": "On",
+          "state": {
+            "reliability": 100.0,
+            "intensityLevel": {
+              "lastKnownValue": 100.0
+            },
+            "powerConsumption": -1.0
+          },
+          "geocoordinates": {
+            "longitude": -81.956909,
+            "latitude": 26.56381
+          },
+          "lastUpdated": 1582948869000,
+          "tenantId": "csc.com",
+          "isValid": true,
+          "private": {
+            "lamp_Status": "ON"
+          },
+          "mode": [
+            "Photocell"
+          ],
+          "locationId": [
+            "10094",
+            "10093",
+            "10092",
+            "10000"
+          ],
+          "applicableDomain": [
+            "Light"
+          ],
+          "locationName": [
+            "CapeCoral"
+          ]
+        }
+      },
+      {
+        "Light": {
+          "sid": "cxahd3bfg3ulkkozidzkluucwnddtdev",
+          "deviceState": {
+            "connState": {
+              "connected": true,
+              "since": 1579706881000
+            }
+          },
+          "label": "Pole 080",
+          "geohash": "dhtxph50nrv0",
+          "parentDomain": "Light",
+          "powerMeter": "Powermeter_54184",
+          "createTime": 1579726003976,
+          "isIndependent": true,
+          "providerDetails": {
+            "provider": "cimcon"
+          },
+          "thirdPartyId": "54184",
+          "status": "On",
+          "state": {
+            "reliability": 100.0,
+            "intensityLevel": {
+              "lastKnownValue": 100.0
+            },
+            "powerConsumption": -1.0
+          },
+          "geocoordinates": {
+            "longitude": -81.953613,
+            "latitude": 26.564983
+          },
+          "lastUpdated": 1582948874000,
+          "tenantId": "csc.com",
+          "isValid": true,
+          "private": {
+            "lamp_Status": "ON"
+          },
+          "mode": [
+            "Photocell"
+          ],
+          "locationId": [
+            "10094",
+            "10093",
+            "10092",
+            "10000"
+          ],
+          "applicableDomain": [
+            "Light"
+          ],
+          "locationName": [
+            "CapeCoral"
+          ]
+        }
+      },
+      {
+        "Light": {
+          "sid": "dh6kguuu3h33k6qyzummicahkkumwwzv",
+          "deviceState": {
+            "connState": {
+              "connected": true,
+              "since": 1579701661000
+            }
+          },
+          "label": "Pole 082",
+          "geohash": "dhtxp5gtt3kq",
+          "parentDomain": "Light",
+          "powerMeter": "Powermeter_20299",
+          "createTime": 1579722402476,
+          "isIndependent": true,
+          "providerDetails": {
+            "provider": "cimcon"
+          },
+          "thirdPartyId": "20299",
+          "status": "On",
+          "state": {
+            "reliability": 100.0,
+            "intensityLevel": {
+              "lastKnownValue": 100.0
+            },
+            "powerConsumption": -1.0
+          },
+          "geocoordinates": {
+            "longitude": -81.95297,
+            "latitude": 26.56452
+          },
+          "lastUpdated": 1582948800000,
+          "tenantId": "csc.com",
+          "isValid": true,
+          "private": {
+            "lamp_Status": "ON"
+          },
+          "mode": [
+            "Photocell"
+          ],
+          "locationId": [
+            "10094",
+            "10093",
+            "10092",
+            "10000"
+          ],
+          "applicableDomain": [
+            "Light"
+          ],
+          "locationName": [
+            "CapeCoral"
+          ]
+        }
+      },
+      {
+        "Light": {
+          "sid": "dibjq62yplhubcollo3r54wci4bqgvft",
+          "deviceState": {
+            "connState": {
+              "connected": true,
+              "since": 1579694460000
+            }
+          },
+          "label": "Pole 062",
+          "geohash": "dhtxp5f3q095",
+          "parentDomain": "Light",
+          "powerMeter": "Powermeter_54175",
+          "createTime": 1579711617160,
+          "isIndependent": true,
+          "providerDetails": {
+            "provider": "cimcon"
+          },
+          "thirdPartyId": "54175",
+          "status": "On",
+          "state": {
+            "reliability": 100.0,
+            "intensityLevel": {
+              "lastKnownValue": 100.0
+            },
+            "powerConsumption": -1.0
+          },
+          "geocoordinates": {
+            "longitude": -81.954659,
+            "latitude": 26.563786
+          },
+          "lastUpdated": 1582948870000,
+          "tenantId": "csc.com",
+          "isValid": true,
+          "private": {
+            "lamp_Status": "ON"
+          },
+          "mode": [
+            "Photocell"
+          ],
+          "locationId": [
+            "10094",
+            "10093",
+            "10092",
+            "10000"
+          ],
+          "applicableDomain": [
+            "Light"
+          ],
+          "locationName": [
+            "CapeCoral"
+          ]
+        }
+      },
+      {
+        "Light": {
+          "sid": "dmv5naw6kjjm7wd62krpon4sv7kkczz6",
+          "deviceState": {
+            "connState": {
+              "connected": true,
+              "since": 1579690885000
+            }
+          },
+          "label": "Pole 043",
+          "geohash": "dhtxp5z1nggb",
+          "parentDomain": "Light",
+          "powerMeter": "Powermeter_20859",
+          "createTime": 1579708003539,
+          "isIndependent": true,
+          "providerDetails": {
+            "provider": "cimcon"
+          },
+          "thirdPartyId": "20859",
+          "status": "On",
+          "state": {
+            "reliability": 100.0,
+            "intensityLevel": {
+              "lastKnownValue": 100.0
+            },
+            "powerConsumption": -1.0
+          },
+          "geocoordinates": {
+            "longitude": -81.9481,
+            "latitude": 26.56376
+          },
+          "lastUpdated": 1582948811000,
+          "tenantId": "csc.com",
+          "isValid": true,
+          "private": {
+            "lamp_Status": "ON"
+          },
+          "mode": [
+            "Photocell"
+          ],
+          "locationId": [
+            "10094",
+            "10093",
+            "10092",
+            "10000"
+          ],
+          "applicableDomain": [
+            "Light"
+          ],
+          "locationName": [
+            "CapeCoral"
+          ]
+        }
+      },
+      {
+        "Light": {
+          "sid": "e677qzjv6onj7i2ffianwhvijwvna5ul",
+          "deviceState": {
+            "connState": {
+              "connected": true,
+              "since": 1579629660000
+            }
+          },
+          "label": "Pole 029",
+          "geohash": "dhtxp5z03v94",
+          "parentDomain": "Light",
+          "powerMeter": "Powermeter_54215",
+          "createTime": 1579643264748,
+          "isIndependent": true,
+          "providerDetails": {
+            "provider": "cimcon"
+          },
+          "thirdPartyId": "54215",
+          "status": "On",
+          "state": {
+            "reliability": 100.0,
+            "intensityLevel": {
+              "lastKnownValue": 100.0
+            },
+            "powerConsumption": -1.0
+          },
+          "geocoordinates": {
+            "longitude": -81.948318,
+            "latitude": 26.563641
+          },
+          "lastUpdated": 1582948805000,
+          "tenantId": "csc.com",
+          "isValid": true,
+          "private": {
+            "lamp_Status": "ON"
+          },
+          "mode": [
+            "Photocell"
+          ],
+          "locationId": [
+            "10094",
+            "10093",
+            "10092",
+            "10000"
+          ],
+          "applicableDomain": [
+            "Light"
+          ],
+          "locationName": [
+            "CapeCoral"
+          ]
+        }
+      },
+      {
+        "Light": {
+          "sid": "exh3tjw2dr264saz5nfccorkfijxmibz",
+          "deviceState": {
+            "connState": {
+              "connected": true,
+              "since": 1579690933000
+            }
+          },
+          "label": "Pole 055",
+          "geohash": "dhtxp5u3j6ff",
+          "parentDomain": "Light",
+          "powerMeter": "Powermeter_54201",
+          "createTime": 1579711626261,
+          "isIndependent": true,
+          "providerDetails": {
+            "provider": "cimcon"
+          },
+          "thirdPartyId": "54201",
+          "status": "On",
+          "state": {
+            "reliability": 100.0,
+            "intensityLevel": {
+              "lastKnownValue": 100.0
+            },
+            "powerConsumption": -1.0
+          },
+          "geocoordinates": {
+            "longitude": -81.951942,
+            "latitude": 26.563755
+          },
+          "lastUpdated": 1582948863000,
+          "tenantId": "csc.com",
+          "isValid": true,
+          "private": {
+            "lamp_Status": "ON"
+          },
+          "mode": [
+            "Photocell"
+          ],
+          "locationId": [
+            "10094",
+            "10093",
+            "10092",
+            "10000"
+          ],
+          "applicableDomain": [
+            "Light"
+          ],
+          "locationName": [
+            "CapeCoral"
+          ]
+        }
+      },
+      {
+        "Light": {
+          "sid": "fgfd6lkxvr55kmrb22bzkdtnfobxn4cn",
+          "deviceState": {
+            "connState": {
+              "connected": true,
+              "since": 1579687304000
+            }
+          },
+          "label": "Pole 036",
+          "geohash": "dhtxp79rs226",
+          "parentDomain": "Light",
+          "powerMeter": "Powermeter_54179",
+          "createTime": 1579704404675,
+          "isIndependent": true,
+          "providerDetails": {
+            "provider": "cimcon"
+          },
+          "thirdPartyId": "54179",
+          "status": "On",
+          "state": {
+            "reliability": 100.0,
+            "intensityLevel": {
+              "lastKnownValue": 100.0
+            },
+            "powerConsumption": -1.0
+          },
+          "geocoordinates": {
+            "longitude": -81.945122,
+            "latitude": 26.563484
+          },
+          "lastUpdated": 1582948874000,
+          "tenantId": "csc.com",
+          "isValid": true,
+          "private": {
+            "lamp_Status": "ON"
+          },
+          "mode": [
+            "Photocell"
+          ],
+          "locationId": [
+            "10094",
+            "10093",
+            "10092",
+            "10000"
+          ],
+          "applicableDomain": [
+            "Light"
+          ],
+          "locationName": [
+            "CapeCoral"
+          ]
+        }
+      },
+      {
+        "Light": {
+          "sid": "fmiyymo7hlgmthwgaed23sap26jimfeg",
+          "deviceState": {
+            "connState": {
+              "connected": true,
+              "since": 1579629662000
+            }
+          },
+          "label": "Pole 004",
+          "geohash": "dhtxp5bcj3cu",
+          "parentDomain": "Light",
+          "powerMeter": "Powermeter_20847",
+          "createTime": 1579628823415,
+          "isIndependent": true,
+          "providerDetails": {
+            "provider": "cimcon"
+          },
+          "thirdPartyId": "20847",
+          "status": "On",
+          "state": {
+            "reliability": 100.0,
+            "intensityLevel": {
+              "lastKnownValue": 100.0
+            },
+            "powerConsumption": -1.0
+          },
+          "geocoordinates": {
+            "longitude": -81.95675,
+            "latitude": 26.56375
+          },
+          "lastUpdated": 1582948862000,
+          "tenantId": "csc.com",
+          "isValid": true,
+          "private": {
+            "lamp_Status": "ON"
+          },
+          "applicableDomain": [
+            "Light"
+          ],
+          "locationName": [
+            "CapeCoral"
+          ],
+          "mode": [
+            "Photocell"
+          ],
+          "locationId": [
+            "10094",
+            "10093",
+            "10092",
+            "10000"
+          ]
+        }
+      },
+      {
+        "Light": {
+          "sid": "gumsx6lz3ft7u44biwh6e6y6wcshdoch",
+          "deviceState": {
+            "connState": {
+              "connected": true,
+              "since": 1579622468000
+            }
+          },
+          "label": "Pole 009",
+          "geohash": "dhtxp5f2cf6n",
+          "parentDomain": "Light",
+          "powerMeter": "Powermeter_20858",
+          "createTime": 1579628823891,
+          "isIndependent": true,
+          "providerDetails": {
+            "provider": "cimcon"
+          },
+          "thirdPartyId": "20858",
+          "status": "On",
+          "state": {
+            "reliability": 100.0,
+            "intensityLevel": {
+              "request": {
+                "value": 100.0000000000
+              },
+              "lastKnownValue": 100.0
+            },
+            "powerConsumption": -1.0
+          },
+          "geocoordinates": {
+            "longitude": -81.95484,
+            "latitude": 26.56371
+          },
+          "lastUpdated": 1582948856000,
+          "tenantId": "csc.com",
+          "isValid": true,
+          "private": {
+            "lamp_Status": "ON"
+          },
+          "mode": [
+            "Photocell"
+          ],
+          "locationId": [
+            "10094",
+            "10093",
+            "10092",
+            "10000"
+          ],
+          "applicableDomain": [
+            "Light"
+          ],
+          "locationName": [
+            "CapeCoral"
+          ]
+        }
+      },
+      {
+        "Light": {
+          "sid": "himu2ijti3cykei5ybk5qpw43cobb6zr",
+          "deviceState": {
+            "connState": {
+              "connected": true,
+              "since": 1579629661000
+            }
+          },
+          "label": "Pole 002",
+          "geohash": "dhtxp5b2ghk6",
+          "parentDomain": "Light",
+          "powerMeter": "Powermeter_20789",
+          "createTime": 1579646829841,
+          "isIndependent": true,
+          "providerDetails": {
+            "provider": "cimcon"
+          },
+          "thirdPartyId": "20789",
+          "status": "On",
+          "state": {
+            "reliability": 100.0,
+            "intensityLevel": {
+              "request": {
+                "value": 100.0000000000
+              },
+              "lastKnownValue": 100.0
+            },
+            "powerConsumption": -1.0
+          },
+          "geocoordinates": {
+            "longitude": -81.95753,
+            "latitude": 26.56372
+          },
+          "lastUpdated": 1582948876000,
+          "tenantId": "csc.com",
+          "isValid": true,
+          "private": {
+            "lamp_Status": "ON"
+          },
+          "locationId": [
+            "10094",
+            "10093",
+            "10092",
+            "10000"
+          ],
+          "mode": [
+            "Photocell"
+          ],
+          "locationName": [
+            "CapeCoral"
+          ],
+          "applicableDomain": [
+            "Light"
+          ]
+        }
+      },
+      {
+        "Light": {
+          "sid": "hjeoreq4h3yw7s3nb3kau7afps6thvyl",
+          "deviceState": {
+            "connState": {
+              "connected": true,
+              "since": 1579622461000
+            }
+          },
+          "label": "Pole 019",
+          "geohash": "dhtxp5ubv4rw",
+          "parentDomain": "Light",
+          "powerMeter": "Powermeter_20668",
+          "createTime": 1579639625304,
+          "isIndependent": true,
+          "providerDetails": {
+            "provider": "cimcon"
+          },
+          "thirdPartyId": "20668",
+          "status": "On",
+          "state": {
+            "reliability": 100.0,
+            "intensityLevel": {
+              "lastKnownValue": 100.0
+            },
+            "powerConsumption": -1.0
+          },
+          "geocoordinates": {
+            "longitude": -81.95126,
+            "latitude": 26.56371
+          },
+          "lastUpdated": 1582948867000,
+          "tenantId": "csc.com",
+          "isValid": true,
+          "private": {
+            "lamp_Status": "ON"
+          },
+          "locationName": [
+            "CapeCoral"
+          ],
+          "applicableDomain": [
+            "Light"
+          ],
+          "locationId": [
+            "10094",
+            "10093",
+            "10092",
+            "10000"
+          ],
+          "mode": [
+            "Photocell"
+          ]
+        }
+      },
+      {
+        "Light": {
+          "sid": "hjm2kn4kk3komsms2drw7af6nwesjp2p",
+          "deviceState": {
+            "connState": {
+              "connected": true,
+              "since": 1579622488000
+            }
+          },
+          "label": "Pole 020",
+          "geohash": "dhtxp5v0v8ef",
+          "parentDomain": "Light",
+          "powerMeter": "Powermeter_20968",
+          "createTime": 1579639626571,
+          "isIndependent": true,
+          "providerDetails": {
+            "provider": "cimcon"
+          },
+          "thirdPartyId": "20968",
+          "status": "On",
+          "state": {
+            "reliability": 100.0,
+            "intensityLevel": {
+              "request": {
+                "value": 0E-10
+              },
+              "lastKnownValue": 100.0
+            },
+            "powerConsumption": -1.0
+          },
+          "geocoordinates": {
+            "longitude": -81.9509,
+            "latitude": 26.5637
+          },
+          "lastUpdated": 1582948868000,
+          "tenantId": "csc.com",
+          "isValid": true,
+          "private": {
+            "lamp_Status": "ON"
+          },
+          "locationName": [
+            "CapeCoral"
+          ],
+          "applicableDomain": [
+            "Light"
+          ],
+          "locationId": [
+            "10094",
+            "10093",
+            "10092",
+            "10000"
+          ],
+          "mode": [
+            "Photocell"
+          ]
+        }
+      },
+      {
+        "Light": {
+          "sid": "hm2ekbzts35e7q73jkiltduqszuojldl",
+          "deviceState": {
+            "connState": {
+              "connected": true,
+              "since": 1579622488000
+            }
+          },
+          "label": "Pole 017",
+          "geohash": "dhtxp5u0rthq",
+          "parentDomain": "Light",
+          "powerMeter": "Powermeter_54206",
+          "createTime": 1579639634238,
+          "isIndependent": true,
+          "providerDetails": {
+            "provider": "cimcon"
+          },
+          "thirdPartyId": "54206",
+          "status": "On",
+          "state": {
+            "reliability": 100.0,
+            "intensityLevel": {
+              "lastKnownValue": 100.0
+            },
+            "powerConsumption": -1.0
+          },
+          "geocoordinates": {
+            "longitude": -81.952187,
+            "latitude": 26.563639
+          },
+          "lastUpdated": 1582948864000,
+          "tenantId": "csc.com",
+          "isValid": true,
+          "private": {
+            "lamp_Status": "ON"
+          },
+          "locationName": [
+            "CapeCoral"
+          ],
+          "applicableDomain": [
+            "Light"
+          ],
+          "locationId": [
+            "10094",
+            "10093",
+            "10092",
+            "10000"
+          ],
+          "mode": [
+            "Photocell"
+          ]
+        }
+      },
+      {
+        "Light": {
+          "sid": "hy57ok3npl7uetxsh5z2b4b5r6mp5vj2",
+          "deviceState": {
+            "connState": {
+              "connected": true,
+              "since": 1579687307000
+            }
+          },
+          "label": "Pole 041",
+          "geohash": "dhtxp5zcjbjc",
+          "parentDomain": "Light",
+          "powerMeter": "Powermeter_20691",
+          "createTime": 1579704403272,
+          "isIndependent": true,
+          "providerDetails": {
+            "provider": "cimcon"
+          },
+          "thirdPartyId": "20691",
+          "status": "On",
+          "state": {
+            "reliability": 100.0,
+            "intensityLevel": {
+              "lastKnownValue": 100.0
+            },
+            "powerConsumption": -1.0
+          },
+          "geocoordinates": {
+            "longitude": -81.94711,
+            "latitude": 26.56374
+          },
+          "lastUpdated": 1582948786000,
+          "tenantId": "csc.com",
+          "isValid": true,
+          "private": {
+            "lamp_Status": "ON"
+          },
+          "applicableDomain": [
+            "Light"
+          ],
+          "locationId": [
+            "10094",
+            "10093",
+            "10092",
+            "10000"
+          ],
+          "locationName": [
+            "CapeCoral"
+          ],
+          "mode": [
+            "Photocell"
+          ]
+        }
+      },
+      {
+        "Light": {
+          "sid": "i4kzwrwungbsvcpiz5o66ax626u7phh2",
+          "deviceState": {
+            "connState": {
+              "connected": true,
+              "since": 1581067995000
+            }
+          },
+          "label": "Pole 084",
+          "geohash": "dhtxp5gwhmyw",
+          "parentDomain": "Light",
+          "powerMeter": "Powermeter_20644",
+          "createTime": 1581086824739,
+          "isIndependent": true,
+          "providerDetails": {
+            "provider": "cimcon"
+          },
+          "thirdPartyId": "20644",
+          "status": "On",
+          "state": {
+            "reliability": 100.0,
+            "intensityLevel": {
+              "request": {
+                "value": 0E-10
+              },
+              "lastKnownValue": 0.0
+            },
+            "powerConsumption": -1.0
+          },
+          "geocoordinates": {
+            "longitude": -81.95301,
+            "latitude": 26.56463
+          },
+          "lastUpdated": 1582948876000,
+          "tenantId": "csc.com",
+          "isValid": true,
+          "private": {
+            "lamp_Status": "OFF"
+          },
+          "applicableDomain": [
+            "Light"
+          ],
+          "locationName": [
+            "CapeCoral"
+          ],
+          "mode": [
+            "Manual"
+          ],
+          "locationId": [
+            "10094",
+            "10093",
+            "10092",
+            "10000"
+          ]
+        }
+      },
+      {
+        "Light": {
+          "sid": "idz7cz2mw4h7xxnqtm4q5ffunj2l3fky",
+          "deviceState": {
+            "connState": {
+              "connected": true,
+              "since": 1579629667000
+            }
+          },
+          "label": "Pole 026",
+          "geohash": "dhtxp5y28hge",
+          "parentDomain": "Light",
+          "powerMeter": "Powermeter_20956",
+          "createTime": 1579643227728,
+          "isIndependent": true,
+          "providerDetails": {
+            "provider": "cimcon"
+          },
+          "thirdPartyId": "20956",
+          "status": "On",
+          "state": {
+            "reliability": 100.0,
+            "intensityLevel": {
+              "request": {
+                "value": 100.0000000000
+              },
+              "lastKnownValue": 100.0
+            },
+            "powerConsumption": -1.0
+          },
+          "geocoordinates": {
+            "longitude": -81.94942,
+            "latitude": 26.56368
+          },
+          "lastUpdated": 1582948867000,
+          "tenantId": "csc.com",
+          "isValid": true,
+          "private": {
+            "lamp_Status": "ON"
+          },
+          "mode": [
+            "Photocell"
+          ],
+          "locationId": [
+            "10094",
+            "10093",
+            "10092",
+            "10000"
+          ],
+          "applicableDomain": [
+            "Light"
+          ],
+          "locationName": [
+            "CapeCoral"
+          ]
+        }
+      },
+      {
+        "Light": {
+          "sid": "jdhdrpacjujfimrrrjqvjj7ah2gs2cas",
+          "deviceState": {
+            "connState": {
+              "connected": true,
+              "since": 1579629660000
+            }
+          },
+          "label": "Pole 025",
+          "geohash": "dhtxp5vbdzg6",
+          "parentDomain": "Light",
+          "powerMeter": "Powermeter_54211",
+          "createTime": 1579643263781,
+          "isIndependent": true,
+          "providerDetails": {
+            "provider": "cimcon"
+          },
+          "thirdPartyId": "54211",
+          "status": "On",
+          "state": {
+            "reliability": 100.0,
+            "intensityLevel": {
+              "lastKnownValue": 100.0
+            },
+            "powerConsumption": -1.0
+          },
+          "geocoordinates": {
+            "longitude": -81.949989,
+            "latitude": 26.563696
+          },
+          "lastUpdated": 1582948870000,
+          "tenantId": "csc.com",
+          "isValid": true,
+          "private": {
+            "lamp_Status": "ON"
+          },
+          "mode": [
+            "Photocell"
+          ],
+          "locationId": [
+            "10094",
+            "10093",
+            "10092",
+            "10000"
+          ],
+          "applicableDomain": [
+            "Light"
+          ],
+          "locationName": [
+            "CapeCoral"
+          ]
+        }
+      },
+      {
+        "Light": {
+          "sid": "jilkuyprdlqbv2obz6hqualusaxenp7e",
+          "deviceState": {
+            "connState": {
+              "connected": true,
+              "since": 1579690933000
+            }
+          },
+          "label": "Pole 048",
+          "geohash": "dhtxp5vcu22w",
+          "parentDomain": "Light",
+          "powerMeter": "Powermeter_54191",
+          "createTime": 1579708013139,
+          "isIndependent": true,
+          "providerDetails": {
+            "provider": "cimcon"
+          },
+          "thirdPartyId": "54191",
+          "status": "On",
+          "state": {
+            "reliability": 100.0,
+            "intensityLevel": {
+              "request": {
+                "value": 80.0000000000
+              },
+              "lastKnownValue": 0.0
+            },
+            "powerConsumption": -1.0
+          },
+          "geocoordinates": {
+            "longitude": -81.949928,
+            "latitude": 26.563871
+          },
+          "lastUpdated": 1582948867000,
+          "tenantId": "csc.com",
+          "isValid": true,
+          "private": {
+            "lamp_Status": "OFF"
+          },
+          "mode": [
+            "Manual"
+          ],
+          "locationId": [
+            "10094",
+            "10093",
+            "10092",
+            "10000"
+          ],
+          "applicableDomain": [
+            "Light"
+          ],
+          "locationName": [
+            "CapeCoral"
+          ]
+        }
+      },
+      {
+        "Light": {
+          "sid": "k43wkn26m45ltltqbvxa7pdcof5tidgs",
+          "deviceState": {
+            "connState": {
+              "connected": true,
+              "since": 1579611517000
+            }
+          },
+          "label": "Pole 007",
+          "geohash": "dhtxp5c8c8dd",
+          "parentDomain": "Light",
+          "powerMeter": "Powermeter_20862",
+          "createTime": 1579628824339,
+          "isIndependent": true,
+          "providerDetails": {
+            "provider": "cimcon"
+          },
+          "thirdPartyId": "20862",
+          "status": "On",
+          "state": {
+            "reliability": 100.0,
+            "intensityLevel": {
+              "lastKnownValue": 100.0
+            },
+            "powerConsumption": -1.0
+          },
+          "geocoordinates": {
+            "longitude": -81.95588,
+            "latitude": 26.5637
+          },
+          "lastUpdated": 1582948873000,
+          "tenantId": "csc.com",
+          "isValid": true,
+          "private": {
+            "lamp_Status": "ON"
+          },
+          "mode": [
+            "Photocell"
+          ],
+          "locationId": [
+            "10094",
+            "10093",
+            "10092",
+            "10000"
+          ],
+          "applicableDomain": [
+            "Light"
+          ],
+          "locationName": [
+            "CapeCoral"
+          ]
+        }
+      },
+      {
+        "Light": {
+          "sid": "kccyqqmecwrqrbt4mlk3ognri4lkyjbu",
+          "deviceState": {
+            "connState": {
+              "connected": true,
+              "since": 1579703434000
+            }
+          },
+          "label": "Pole 079",
+          "geohash": "dhtxph58m1j1",
+          "parentDomain": "Light",
+          "powerMeter": "Powermeter_20120",
+          "createTime": 1579722402337,
+          "isIndependent": true,
+          "providerDetails": {
+            "provider": "cimcon"
+          },
+          "thirdPartyId": "20120",
+          "status": "On",
+          "state": {
+            "reliability": 100.0,
+            "intensityLevel": {
+              "lastKnownValue": 100.0
+            },
+            "powerConsumption": -1.0
+          },
+          "geocoordinates": {
+            "longitude": -81.95298,
+            "latitude": 26.56499
+          },
+          "lastUpdated": 1582948867000,
+          "tenantId": "csc.com",
+          "isValid": true,
+          "private": {
+            "lamp_Status": "ON"
+          },
+          "mode": [
+            "Photocell"
+          ],
+          "locationId": [
+            "10094",
+            "10093",
+            "10092",
+            "10000"
+          ],
+          "applicableDomain": [
+            "Light"
+          ],
+          "locationName": [
+            "CapeCoral"
+          ]
+        }
+      },
+      {
+        "Light": {
+          "sid": "kgubflrtjbjekwaehfserxkercegbin4",
+          "deviceState": {
+            "connState": {
+              "connected": true,
+              "since": 1579694479000
+            }
+          },
+          "label": "Pole 060",
+          "geohash": "dhtxp5fcrtp4",
+          "parentDomain": "Light",
+          "powerMeter": "Powermeter_19402",
+          "createTime": 1579711614046,
+          "isIndependent": true,
+          "providerDetails": {
+            "provider": "cimcon"
+          },
+          "thirdPartyId": "19402",
+          "status": "On",
+          "state": {
+            "reliability": 100.0,
+            "intensityLevel": {
+              "lastKnownValue": 100.0
+            },
+            "powerConsumption": -1.0
+          },
+          "geocoordinates": {
+            "longitude": -81.9539,
+            "latitude": 26.56381
+          },
+          "lastUpdated": 1582948861000,
+          "tenantId": "csc.com",
+          "isValid": true,
+          "private": {
+            "lamp_Status": "ON"
+          },
+          "mode": [
+            "Photocell"
+          ],
+          "locationId": [
+            "10094",
+            "10093",
+            "10092",
+            "10000"
+          ],
+          "applicableDomain": [
+            "Light"
+          ],
+          "locationName": [
+            "CapeCoral"
+          ]
+        }
+      },
+      {
+        "Light": {
+          "sid": "khhnfgeyes32i3pbuf5jqjpwyh75hvn3",
+          "deviceState": {
+            "connState": {
+              "connected": true,
+              "since": 1579703426000
+            }
+          },
+          "label": "Pole 085",
+          "geohash": "dhtxp5gwpk04",
+          "parentDomain": "Light",
+          "powerMeter": "Powermeter_20974",
+          "createTime": 1579722403713,
+          "isIndependent": true,
+          "providerDetails": {
+            "provider": "cimcon"
+          },
+          "thirdPartyId": "20974",
+          "status": "On",
+          "state": {
+            "reliability": 100.0,
+            "intensityLevel": {
+              "request": {
+                "value": 0E-10
+              },
+              "lastKnownValue": 0.0
+            },
+            "powerConsumption": -1.0
+          },
+          "geocoordinates": {
+            "longitude": -81.95289,
+            "latitude": 26.56462
+          },
+          "lastUpdated": 1582948797000,
+          "tenantId": "csc.com",
+          "isValid": true,
+          "private": {
+            "lamp_Status": "OFF"
+          },
+          "mode": [
+            "Manual"
+          ],
+          "locationId": [
+            "10094",
+            "10093",
+            "10092",
+            "10000"
+          ],
+          "applicableDomain": [
+            "Light"
+          ],
+          "locationName": [
+            "CapeCoral"
+          ]
+        }
+      },
+      {
+        "Light": {
+          "sid": "kqyib65a5g7erfq4a25pd6j2zglmysm5",
+          "deviceState": {
+            "connState": {
+              "connected": true,
+              "since": 1579703434000
+            }
+          },
+          "label": "Pole 073",
+          "geohash": "dhtxphhjqtzg",
+          "parentDomain": "Light",
+          "powerMeter": "Powermeter_54187",
+          "createTime": 1579722404223,
+          "isIndependent": true,
+          "providerDetails": {
+            "provider": "cimcon"
+          },
+          "thirdPartyId": "54187",
+          "status": "On",
+          "state": {
+            "reliability": 100.0,
+            "intensityLevel": {
+              "request": {
+                "value": 60.0000000000
+              },
+              "lastKnownValue": 60.0
+            },
+            "powerConsumption": -1.0
+          },
+          "geocoordinates": {
+            "longitude": -81.952225,
+            "latitude": 26.565874
+          },
+          "lastUpdated": 1582948865000,
+          "tenantId": "csc.com",
+          "isValid": true,
+          "private": {
+            "lamp_Status": "ON"
+          },
+          "locationId": [
+            "10094",
+            "10093",
+            "10092",
+            "10000"
+          ],
+          "mode": [
+            "Manual"
+          ],
+          "locationName": [
+            "CapeCoral"
+          ],
+          "applicableDomain": [
+            "Light"
+          ]
+        }
+      },
+      {
+        "Light": {
+          "sid": "ks6n7nmluvl6gudu7d3qhu7nwfq2ui64",
+          "deviceState": {
+            "connState": {
+              "connected": true,
+              "since": 1579622498000
+            }
+          },
+          "label": "Pole 022",
+          "geohash": "dhtxp5v8b25w",
+          "parentDomain": "Light",
+          "powerMeter": "Powermeter_54216",
+          "createTime": 1579639666844,
+          "isIndependent": true,
+          "providerDetails": {
+            "provider": "cimcon"
+          },
+          "thirdPartyId": "54216",
+          "status": "On",
+          "state": {
+            "reliability": 100.0,
+            "intensityLevel": {
+              "lastKnownValue": 100.0
+            },
+            "powerConsumption": -1.0
+          },
+          "geocoordinates": {
+            "longitude": -81.950439,
+            "latitude": 26.563698
+          },
+          "lastUpdated": 1582948862000,
+          "tenantId": "csc.com",
+          "isValid": true,
+          "private": {
+            "lamp_Status": "ON"
+          },
+          "locationName": [
+            "CapeCoral"
+          ],
+          "applicableDomain": [
+            "Light"
+          ],
+          "locationId": [
+            "10094",
+            "10093",
+            "10092",
+            "10000"
+          ],
+          "mode": [
+            "Photocell"
+          ]
+        }
+      },
+      {
+        "Light": {
+          "sid": "lexgj3czszzsfsazc3yd7tg73pfh4ssd",
+          "deviceState": {
+            "connState": {
+              "connected": true,
+              "since": 1579611512000
+            }
+          },
+          "label": "Pole 011",
+          "geohash": "dhtxp5fbddfz",
+          "parentDomain": "Light",
+          "powerMeter": "Powermeter_19066",
+          "createTime": 1579632421559,
+          "isIndependent": true,
+          "providerDetails": {
+            "provider": "cimcon"
+          },
+          "thirdPartyId": "19066",
+          "status": "On",
+          "state": {
+            "reliability": 100.0,
+            "intensityLevel": {
+              "request": {
+                "value": 0E-10
+              },
+              "lastKnownValue": 100.0
+            },
+            "powerConsumption": -1.0
+          },
+          "geocoordinates": {
+            "longitude": -81.95412,
+            "latitude": 26.56367
+          },
+          "lastUpdated": 1582948877000,
+          "tenantId": "csc.com",
+          "isValid": true,
+          "private": {
+            "lamp_Status": "ON"
+          },
+          "locationName": [
+            "CapeCoral"
+          ],
+          "applicableDomain": [
+            "Light"
+          ],
+          "locationId": [
+            "10094",
+            "10093",
+            "10092",
+            "10000"
+          ],
+          "mode": [
+            "Photocell"
+          ]
+        }
+      },
+      {
+        "Light": {
+          "sid": "luca5dymcce5jx37oyzmaakmkr64i5nl",
+          "deviceState": {
+            "connState": {
+              "connected": true,
+              "since": 1579690887000
+            }
+          },
+          "label": "Pole 046",
+          "geohash": "dhtxp5y17sdn",
+          "parentDomain": "Light",
+          "powerMeter": "Powermeter_54197",
+          "createTime": 1579708013291,
+          "isIndependent": true,
+          "providerDetails": {
+            "provider": "cimcon"
+          },
+          "thirdPartyId": "54197",
+          "status": "On",
+          "state": {
+            "reliability": 100.0,
+            "intensityLevel": {
+              "lastKnownValue": 100.0
+            },
+            "powerConsumption": -1.0
+          },
+          "geocoordinates": {
+            "longitude": -81.949615,
+            "latitude": 26.563808
+          },
+          "lastUpdated": 1582948866000,
+          "tenantId": "csc.com",
+          "isValid": true,
+          "private": {
+            "lamp_Status": "ON"
+          },
+          "mode": [
+            "Photocell"
+          ],
+          "locationId": [
+            "10094",
+            "10093",
+            "10092",
+            "10000"
+          ],
+          "applicableDomain": [
+            "Light"
+          ],
+          "locationName": [
+            "CapeCoral"
+          ]
+        }
+      },
+      {
+        "Light": {
+          "sid": "m4p5tzpkcqpbwibxosbnqam7onbqpfot",
+          "deviceState": {
+            "connState": {
+              "connected": true,
+              "since": 1579690989000
+            }
+          },
+          "label": "Pole 052",
+          "geohash": "dhtxp5v16mf4",
+          "parentDomain": "Light",
+          "powerMeter": "Powermeter_54193",
+          "createTime": 1579708013228,
+          "isIndependent": true,
+          "providerDetails": {
+            "provider": "cimcon"
+          },
+          "thirdPartyId": "54193",
+          "status": "On",
+          "state": {
+            "reliability": 100.0,
+            "intensityLevel": {
+              "lastKnownValue": 100.0
+            },
+            "powerConsumption": -1.0
+          },
+          "geocoordinates": {
+            "longitude": -81.951042,
+            "latitude": 26.563814
+          },
+          "lastUpdated": 1582948867000,
+          "tenantId": "csc.com",
+          "isValid": true,
+          "private": {
+            "lamp_Status": "ON"
+          },
+          "locationId": [
+            "10094",
+            "10093",
+            "10092",
+            "10000"
+          ],
+          "applicableDomain": [
+            "Light"
+          ],
+          "locationName": [
+            "CapeCoral"
+          ],
+          "mode": [
+            "Photocell"
+          ]
+        }
+      },
+      {
+        "Light": {
+          "sid": "m54dyeukoio6kdruf3h5poq6yjr67fhf",
+          "deviceState": {
+            "connState": {
+              "connected": true,
+              "since": 1579701662000
+            }
+          },
+          "label": "Pole 070",
+          "geohash": "dhtxp5gum23v",
+          "parentDomain": "Light",
+          "powerMeter": "Powermeter_17062",
+          "createTime": 1579722401811,
+          "isIndependent": true,
+          "providerDetails": {
+            "provider": "cimcon"
+          },
+          "thirdPartyId": "17062",
+          "status": "On",
+          "state": {
+            "reliability": 100.0,
+            "intensityLevel": {
+              "lastKnownValue": 100.0
+            },
+            "powerConsumption": -1.0
+          },
+          "geocoordinates": {
+            "longitude": -81.95263,
+            "latitude": 26.5643
+          },
+          "lastUpdated": 1582948811000,
+          "tenantId": "csc.com",
+          "isValid": true,
+          "private": {
+            "lamp_Status": "ON"
+          },
+          "mode": [
+            "Photocell"
+          ],
+          "locationId": [
+            "10094",
+            "10093",
+            "10092",
+            "10000"
+          ],
+          "applicableDomain": [
+            "Light"
+          ],
+          "locationName": [
+            "CapeCoral"
+          ]
+        }
+      },
+      {
+        "Light": {
+          "sid": "mgcvuqlty53x33gewo7g6p4emxfbtojh",
+          "deviceState": {
+            "connState": {
+              "connected": true,
+              "since": 1579694460000
+            }
+          },
+          "label": "Pole 056",
+          "geohash": "dhtxp5u13epx",
+          "parentDomain": "Light",
+          "powerMeter": "Powermeter_20967",
+          "createTime": 1579711615614,
+          "isIndependent": true,
+          "providerDetails": {
+            "provider": "cimcon"
+          },
+          "thirdPartyId": "20967",
+          "status": "On",
+          "state": {
+            "reliability": 100.0,
+            "intensityLevel": {
+              "request": {
+                "value": 0E-10
+              },
+              "lastKnownValue": 100.0
+            },
+            "powerConsumption": -1.0
+          },
+          "geocoordinates": {
+            "longitude": -81.95244,
+            "latitude": 26.5638
+          },
+          "lastUpdated": 1582948868000,
+          "tenantId": "csc.com",
+          "isValid": true,
+          "private": {
+            "lamp_Status": "ON"
+          },
+          "mode": [
+            "Photocell"
+          ],
+          "locationId": [
+            "10094",
+            "10093",
+            "10092",
+            "10000"
+          ],
+          "applicableDomain": [
+            "Light"
+          ],
+          "locationName": [
+            "CapeCoral"
+          ]
+        }
+      },
+      {
+        "Light": {
+          "sid": "miriagj5vskxq7adrkpo3oidmq7f2hbq",
+          "deviceState": {
+            "connState": {
+              "connected": true,
+              "since": 1579701707000
+            }
+          },
+          "label": "Pole 081",
+          "geohash": "dhtxp5gqedgr",
+          "parentDomain": "Light",
+          "powerMeter": "Powermeter_20397",
+          "createTime": 1579718803871,
+          "isIndependent": true,
+          "providerDetails": {
+            "provider": "cimcon"
+          },
+          "thirdPartyId": "20397",
+          "status": "On",
+          "state": {
+            "reliability": 100.0,
+            "intensityLevel": {
+              "lastKnownValue": 100.0
+            },
+            "powerConsumption": -1.0
+          },
+          "geocoordinates": {
+            "longitude": -81.95339,
+            "latitude": 26.5647
+          },
+          "lastUpdated": 1582948815000,
+          "tenantId": "csc.com",
+          "isValid": true,
+          "private": {
+            "lamp_Status": "ON"
+          },
+          "mode": [
+            "Photocell"
+          ],
+          "locationId": [
+            "10094",
+            "10093",
+            "10092",
+            "10000"
+          ],
+          "applicableDomain": [
+            "Light"
+          ],
+          "locationName": [
+            "CapeCoral"
+          ]
+        }
+      },
+      {
+        "Light": {
+          "sid": "mvbo7molltff2x7s5pdntywybozxjd2l",
+          "deviceState": {
+            "connState": {
+              "connected": true,
+              "since": 1579687304000
+            }
+          },
+          "label": "Pole 047",
+          "geohash": "dhtxp5vckjp6",
+          "parentDomain": "Light",
+          "powerMeter": "Powermeter_20625",
+          "createTime": 1579708003173,
+          "isIndependent": true,
+          "providerDetails": {
+            "provider": "cimcon"
+          },
+          "thirdPartyId": "20625",
+          "status": "On",
+          "state": {
+            "reliability": 100.0,
+            "intensityLevel": {
+              "lastKnownValue": 100.0
+            },
+            "powerConsumption": -1.0
+          },
+          "geocoordinates": {
+            "longitude": -81.94993,
+            "latitude": 26.56381
+          },
+          "lastUpdated": 1582948865000,
+          "tenantId": "csc.com",
+          "isValid": true,
+          "private": {
+            "lamp_Status": "ON"
+          },
+          "mode": [
+            "Photocell"
+          ],
+          "locationId": [
+            "10094",
+            "10093",
+            "10092",
+            "10000"
+          ],
+          "applicableDomain": [
+            "Light"
+          ],
+          "locationName": [
+            "CapeCoral"
+          ]
+        }
+      }
+    ]
+  }
+}
