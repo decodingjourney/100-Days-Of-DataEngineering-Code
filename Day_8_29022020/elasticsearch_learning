@@ -1,0 +1,122 @@
+GET _cluster/allocation/explain
+GET _cluster/health
+GET _cluster/nodes/hot_threads
+GET _cluster/settings
+GET _cluster/state
+GET _cluster/stats
+GET _cluster/stats/nodes
+
+
+GET _cat/nodes?v
+GET _cat/master?v
+GET _cat/fielddata?v
+GET _cat/health?v
+GET _cat/nodeattrs?v
+GET /_cat/shards
+
+
+GET _nodes
+GET _cat/indices?v
+
+get /.kibana/_search
+{
+  "query": {
+    "match_all": {}
+  }
+}
+
+GET /_all
+DELETE myprod
+
+PUT /myprod
+{
+  "settings": {
+    "number_of_shards": 2,
+    "number_of_replicas": 2
+  }
+}
+
+
+POST /myprod/_doc
+{
+  "name": "coffee maker",
+  "price": 500,
+  "in_stock": 19
+}
+
+GET /myprod/_doc/8y2hjnABZAZS8PyNLw9F
+
+GET /myprod/_mapping
+
+GET /myprod/_search
+{
+  "query": {
+    "match_all": {}
+  }
+}
+
+POST /myprod/_doc/1
+{
+  "name": "rice cooker",
+  "price": 600,
+  "in_stock": 10
+}
+
+
+PUT /myprod/_doc/2
+{
+  "name": "refridgreter",
+  "price": 12000,
+  "in_stock": 12
+}
+
+
+
+POST /myprod/_update/2
+{
+  "doc": {
+    "price": 15000
+  }
+}
+
+POST /myprod/_update/2
+{
+  "doc": {
+    "tags": ["SAMSUNG"]
+  }
+}
+
+POST /myprod/_update/2
+{
+  "script": {
+    "source": "ctx._source.in_stock = 10"
+  }
+
+}
+
+POST /myprod/_update/2
+{
+  "script": {
+    "source": "ctx._source.in_stock -= params.quantity",
+    "params": {
+      "quantity": 4
+    }
+  }
+}
+
+POST /myprod/_update/2
+{
+  "script": {
+    "source": """
+      if (ctx._source.in_stock < 4) {
+        ctx.op = 'noop';
+      }
+      ctx._source.in_stock -= params.quantity;
+    """,
+    "params": {
+      "quantity": 4
+    }
+  }
+}
+
+GET /myprod/_doc/2
