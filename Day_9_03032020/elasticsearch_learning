@@ -1,0 +1,5 @@
+relevence score depends on the two algorithms
+
+1) Term frequency - How many times a term appears in the search results
+2) Inverse Document frequency - How often does the term appear within the index
+3) Field length norm
