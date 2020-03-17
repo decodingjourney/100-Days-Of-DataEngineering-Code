@@ -1,0 +1,1964 @@
+GET _cluster/health
+
+GET _cat/nodes?v
+
+GET _nodes
+
+GET _cat/indices?v
+
+
+GET /.kibana/_search
+{
+  "query" : {
+    "match_all": {}
+  }
+}
+
+GET /products
+GET /_all
+GET /_aliases
+
+GET /_cat/shards?v
+GET /_cat/shards/anand?v
+
+DELETE /product
+
+put /products
+{
+  "settings" : {
+    "number_of_shards" : 2,
+    "number_of_replicas" : 1
+  }
+}
+
+PUT /anand
+{
+  "settings": {
+      "number_of_shards" : 3,
+      "number_of_replicas" : 2
+    }
+  }
+
+
+POST /products/_doc
+{
+  "name" : "Coffee maker",
+  "price" : 100,
+  "in_stock" : 10
+}
+
+POST /anand/_doc/4880
+{
+  "name" : "SST",
+  "price" : 123456789,
+  "in_stock" : 12345123
+}
+
+GET /anand/_search
+{
+  "query": {
+    "match_all": {}
+  }
+}
+
+GET /anand/_doc/4880
+
+PUT /products/_doc/100
+{
+  "name" : "Toaster",
+  "price" : 49,
+  "in_stock" : 80
+}
+
+PUT /products/_doc/101
+{
+  "name_of_prd" : "Toaster",
+  "price" : 49,
+  "in_stock" : 80
+}
+
+PUT /anand/_doc/4880
+{
+  "name" : "SST",
+  "price" : 123456,
+  "in_stock" : 123451
+}
+
+
+GET /products/_doc/100
+
+POST /products/_update/100
+{
+  "doc" : {
+    "in_stock" : 3
+  }
+}
+
+POST /anand/_update/4880
+{
+  "doc" : {
+    "price" : 123
+  }
+}
+
+POST /products/_update/100
+{
+  "doc" : {
+    "tags" : ["electronics"]
+  }
+}
+
+POST /anand/_update/4880
+{
+  "doc" : {
+    "tags" : ["sainik"]
+  }
+}
+
+POST /products/_update/100
+{
+  "script" : {
+    "source": "ctx._source.in_stock--"
+  }
+}
+
+
+POST /anand/_update/4880
+{
+  "script" : {
+    "source": "ctx._source.price = 0"
+  }
+}
+
+GET /anand/_doc/4880
+
+POST /products/_update/100
+{
+  "script" : {
+    "source": "ctx._source.in_stock = 0"
+  }
+}
+
+POST /products/_update/100
+{
+  "script" : {
+    "source": "ctx._source.in_stock -= params.quantity",
+    "params": {
+      "quantity" : 4
+    }
+  }
+}
+
+
+POST /products/_update/100
+{
+  "script" : {
+    "source": """
+      if (ctx._source.in_stock == 0) {
+        ctx.op = 'noop';
+      }
+      ctx._source.in_stock--;
+    """
+  }
+}
+
+POST /products/_update/102
+{
+  "script" : {
+    "source": "ctx._source.in_stock++"
+  },
+  "upsert" : {
+    "name" : "Blender",
+    "price" : 399,
+    "in_stock" : 10
+  }
+}
+
+
+DELETE /products/_doc/101
+GET /products/_doc/100
+
+POST /products/_update/100?if_primary_term=2&if_seq_no=8
+{
+  "doc" : {
+    "in_stock" : 123
+  }
+}
+
+
+POST /products/_update_by_query
+{
+  "script" : {
+    "source" : "ctx._source.in_stock--"
+  },
+  "query" : {
+    "match_all" : {}
+  }
+
+}
+
+GET /products/_search
+{
+  "query" : {
+    "match_all" : {}
+  }
+}
+
+
+POST /products/_delete_by_query
+{
+  "query" : {
+    "match_all" : {}
+  }
+}
+
+
+
+POST /_bulk
+{ "index" : { "_index": "products", "_id": 204 } }
+{ "name": "vegetable grinder", "price": 199, "in_stock": 10 }
+{ "create": { "_index": "products", "_id": 205  } }
+{ "name": "cylinder gas", "price": 299, "in_stock": 19 }
+
+
+POST /products/_bulk
+{ "update": {"_id": 205 } }
+{ "doc": { "price": 149  } }
+{ "delete": {"_id": 204 } }
+
+
+
+GET /products/
+
+GET /product/default/_mapping
+
+POST /product/_doc/
+
+PUT /products/_mapping
+{
+  "properties": {
+    "discount": {
+      "type": "boolean"
+    }
+  }
+}
+
+GET /products/_mapping
+
+PUT /products
+
+DELETE /products
+
+PUT /products
+{
+  "mappings": {
+      "dynamic": false,
+      "properties": {
+        "in_stock": {
+          "type": "integer"
+        },
+        "is_active": {
+          "type": "boolean"
+        },
+        "price": {
+          "type": "integer"
+        },
+        "sold": {
+          "type": "long"
+        }
+
+      }
+    }
+  }
+
+
+  PUT /products/_mapping
+  {
+    "properties": {
+      "description": {
+        "type": "text"
+      },
+      "name": {
+        "type": "text",
+        "fields": {
+          "keyword": {
+            "type": "keyword"
+          }
+        }
+      },
+      "tags": {
+        "type": "text",
+        "fields": {
+          "keyword": {
+            "type": "keyword"
+          }
+        }
+      }
+    }
+  }
+
+  GET /products/_mapping
+
+
+  PUT /products/_mapping
+  {
+    "properties": {
+      "created": {
+        "type": "date",
+        "format": "yyyy/MM/dd HH:mm:ss || yyyy/MM/dd"
+      }
+    }
+  }
+
+  GET /products/_search
+  {
+  "query" : {
+    "match_all" : {}
+  }
+}
+
+POST /products/_doc/2000
+{
+  "description": "Test",
+  "discount": 20
+}
+
+
+PUT /products/_mapping
+{
+  "properties": {
+    "discount": {
+      "type": "integer"
+    }
+  }
+}
+
+GET /products/_search
+{
+  "query": {
+    "term": {
+      "discount": 20
+    }
+  }
+}
+
+POST /products/_update_by_query?conflicts=proceed
+
+
+GET /products/_doc/2000
+
+POST /_analyze
+{
+  "tokenizer": "standard",
+  "text": "I'm in the mood to drinking semi-dry red wine!"
+
+}
+
+POST /_analyze
+{
+  "filter": ["lowercase"],
+  "text": "I'm in the mood to drinking semi-dry red wine!"
+}
+
+POST /_analyze
+{
+  "analyzer": "standard",
+  "text": "I'm in the mood to drinking semi-dry red wine!"
+}
+
+PUT existing_analyzer_config
+{
+  "settings": {
+    "analysis": {
+      "analyzer": {
+        "english_stop": {
+          "type": "standard",
+          "stopwords": "_english_"
+        },
+        "my_analyzer": {
+          "type": "custom",
+          "tokenizer": "standard",
+          "char_filter": [
+            "html_strip"
+            ],
+            "filter": [
+              "standard",
+              "lowercase",
+              "trim",
+              "my_stemmer"
+              ]
+        }
+      },
+      "filter": {
+        "my_stemmer": {
+          "type": "stemmer",
+          "name": "english"
+        }
+      }
+    }
+  }
+}
+
+
+POST /existing_analyzer_config/_analyze
+{
+  "analyzer": "english_stop",
+  "text": "I'm in the mood for drinking semi-dry red wine!"
+}
+
+POST /existing_analyzer_config/_analyze
+{
+  "tokenizer": "standard",
+  "filter": ["my_stemmer"],
+  "text": "I'm in the mood for drinking semi-dry red wine!"
+}
+
+
+PUT analyzerss_test
+{
+  "settings": {
+    "analysis": {
+      "analyzer": {
+        "english_stop": {
+          "type": "standard",
+          "stopwords": "_english_"
+        },
+        "my_analyzer": {
+          "type": "custom",
+          "tokenizer": "standard",
+          "char_filter": [
+            "html_strip"
+            ],
+            "filter": [
+              "lowercase",
+              "trim",
+              "my_stemmer"
+              ]
+        }
+      },
+      "filter": {
+        "my_stemmer": {
+          "type": "stemmer",
+          "name": "english"
+        }
+      }
+    }
+  }
+}
+
+
+POST /analyzerss_test/_analyze
+{
+  "analyzer": "my_analyzer",
+  "text": "I'm in the mood for drinking <strong>semi-dry</strong> red wine!"
+}
+
+
+
+GET /products/_search?q=*
+
+GET /products/_search?q=name:lobster
+GET /products/_search?q=tags:meat AND name:Tuna
+GET /products/_search
+{
+  "query": {
+    "match_all": {}
+  }
+}
+
+
+GET /products/_search?explain
+{
+  "query": {
+    "term": {
+      "name": {
+        "value": "lobster"
+      }
+    }
+  }
+}
+
+GET /products/_search
+{
+  "query": {
+    "terms": {
+      "tags.keyword": [
+        "Soup",
+        "Cake"
+      ]
+    }
+  }
+}
+
+GET /products/_search
+{
+  "query": {
+    "ids": {
+      "values": [1,2,3]
+    }
+  }
+}
+
+GET /products/_search
+{
+  "query": {
+    "range": {
+      "in_stock": {
+        "gte": 1,
+        "lte": 5
+      }
+    }
+  }
+}
+
+GET /products/_search
+{
+  "query": {
+    "range": {
+      "created": {
+        "gte": "2010/01/01",
+        "lte": "2010/12/31"
+      }
+    }
+  }
+}
+
+GET /products/_search
+{
+  "query": {
+    "range": {
+      "created": {
+        "gte": "01-01-2010",
+        "lte": "31-12-2010",
+        "format": "dd-MM-yyyy"
+      }
+    }
+  }
+}
+
+GET /products/_search
+{
+  "query": {
+    "exists": {
+      "field": "tags"
+    }
+  }
+}
+
+GET /products/_search
+{
+  "query": {
+    "prefix": {
+      "tags.keyword": {
+        "value": "Vege"
+      }
+    }
+  }
+}
+
+GET /products/_search
+{
+  "query": {
+    "wildcard": {
+      "tags.keyword": {
+        "value": "Veget?ble"
+      }
+    }
+  }
+}
+
+GET /products/_search
+{
+  "query": {
+    "range": {
+      "sold": {
+        "gte": 10,
+       "lte": 30
+      }
+    }
+  }
+}
+
+GET /products/_search
+{
+  "query": {
+    "term": {
+      "tags.keyword": {
+        "value": "Meat"
+      }
+    }
+  }
+}
+
+GET /products/_search
+{
+  "query": {
+    "terms": {
+      "name": [ "Tomato", "Pasta" ]
+    }
+  }
+}
+
+GET /recipe/_mapping
+
+GET /recipe/_search
+{
+  "query": {
+    "match": {
+      "title": "Recipe with pasta or spaghetti"
+    }
+  }
+}
+
+GET /recipe/_search
+{
+  "query": {
+    "match": {
+      "title": {
+        "query": "Recipe with pasta or spaghetti",
+        "operator": "and"
+      }
+    }
+  }
+}
+
+GET /recipe/_search
+{
+  "query": {
+    "match_phrase": {
+      "title": "spaghetti puttanesca"
+    }
+  }
+}
+
+GET /recipe/_search
+{
+  "query": {
+    "multi_match": {
+      "query": "pasta",
+      "fields": ["title", "description"]
+    }
+  }
+}
+
+
+GET /recipe/_search
+{
+  "query": {
+    "match": {
+      "title": "Pasta with parmesan and spinach"
+    }
+  }
+}
+
+
+GET /recipe/_search
+{
+  "query": {
+    "match_phrase": {
+      "title": "pasta carbonara"
+    }
+  }
+}
+
+GET /recipe/_search
+{
+  "query": {
+    "match_phrase": {
+      "title": "carbonara pasta"
+    }
+  }
+}
+
+GET /recipe/_search
+{
+  "query": {
+    "multi_match": {
+      "query": "pasta pesto",
+      "fields": ["title", "description"]
+    }
+  }
+}
+
+
+GET /recipe/_search
+{
+  "query": {
+    "bool": {
+      "must": [
+        {
+          "match": {
+            "ingredients.name": "parmesan"
+          }
+        },
+        {
+          "range": {
+            "preparation_time_minutes": {
+              "lte": 20
+            }
+          }
+        }
+      ]
+    }
+  }
+}
+
+GET /recipe/_search
+{
+  "query": {
+    "bool": {
+      "must": [
+        {
+          "match": {
+            "ingredients.name": "parmesan"
+          }
+        }
+      ],
+      "must_not": [
+        {
+          "match": {
+            "ingredients.name": "tuna"
+          }
+        }
+      ],
+      "should": [
+        {
+          "match": {
+            "ingredients.name": "parsley"
+          }
+        }
+      ],
+      "filter": [
+        {
+          "range": {
+            "preparation_time_minutes": {
+              "lte": 15
+            }
+          }
+        }
+      ]
+    }
+  }
+}
+
+
+GET /recipe/_search
+{
+  "query": {
+    "bool": {
+      "must": [
+        {
+          "match": {
+            "ingredients.name": {
+              "query": "parmesan",
+              "_name": "parmesan_must"
+            }
+          }
+        }
+      ],
+      "must_not": [
+            {
+              "match": {
+                "ingredients.name": {
+                  "query": "tuna",
+                  "_name": "tuna_must_not"
+                }
+              }
+            }
+          ],
+      "should": [
+            {
+              "match": {
+                "ingredients.name": {
+                  "query": "parsley",
+                  "_name": "parsley_should"
+                }
+              }
+            }
+          ],
+      "filter": [
+            {
+              "range": {
+                "preparation_time_minutes": {
+                  "lte": 15,
+                  "_name": "prep_time_filter"
+                }
+              }
+            }
+          ]
+    }
+  }
+}
+
+
+GET /recipe/_search
+{
+  "query": {
+    "match": {
+      "title": "pasta carbonara"
+    }
+  }
+}
+
+GET /recipe/_search
+{
+  "query": {
+    "bool": {
+      "should": [
+        {
+          "term": {
+            "title": "pasta"
+          }
+        },
+        {
+          "term": {
+            "title": "carbonara"
+          }
+        }
+      ]
+    }
+  }
+}
+
+GET /recipe/_search
+{
+  "query": {
+    "match": {
+      "title": {
+        "query": "pasta carbonara",
+        "operator": "and"
+      }
+    }
+  }
+}
+
+GET /recipe/_search
+{
+  "query": {
+    "bool": {
+      "must": [
+        {
+          "term": {
+            "title": "pasta"
+          }
+        },
+        {
+          "term": {
+            "title": "carbonara"
+          }
+        }
+      ]
+    }
+  }
+}
+
+
+
+GET /recipe/_mapping
+
+PUT /department
+{
+  "mappings": {
+    "properties": {
+      "name": {
+        "type": "text"
+      },
+      "employees": {
+        "type": "nested"
+      }
+    }
+  }
+}
+
+PUT /department/_doc/1
+{
+  "name": "Development",
+  "employees": [
+    {
+      "name": "Eric Green",
+      "age": 39,
+      "gender": "M",
+      "position": "Big Data Specialist"
+    },
+    {
+      "name": "James Taylor",
+      "age": 27,
+      "gender": "M",
+      "position": "Software Developer"
+    },
+    {
+      "name": "Gary Jenkins",
+      "age": 21,
+      "gender": "M",
+      "position": "Intern"
+    },
+    {
+      "name": "Julie Powell",
+      "age": 26,
+      "gender": "F",
+      "position": "Intern"
+    },
+    {
+      "name": "Benjamin Smith",
+      "age": 46,
+      "gender": "M",
+      "position": "Senior Software Engineer"
+    }
+  ]
+}
+
+
+PUT /department/_doc/2
+{
+  "name": "HR & Marketing",
+  "employees": [
+    {
+      "name": "Patricia Lewis",
+      "age": 42,
+      "gender": "F",
+      "position": "Senior Marketing Manager"
+    },
+    {
+      "name": "Maria Anderson",
+      "age": 56,
+      "gender": "F",
+      "position": "Head of HR"
+    },
+    {
+      "name": "Margaret Harris",
+      "age": 19,
+      "gender": "F",
+      "position": "Intern"
+    },
+    {
+      "name": "Ryan Nelson",
+      "age": 31,
+      "gender": "M",
+      "position": "Marketing Manager"
+    },
+    {
+      "name": "Kathy Williams",
+      "age": 49,
+      "gender": "F",
+      "position": "Senior Marketing Manager"
+    },
+    {
+      "name": "Jacqueline Hill",
+      "age": 28,
+      "gender": "F",
+      "position": "Junior Marketing Manager"
+    },
+    {
+      "name": "Donald Morris",
+      "age": 39,
+      "gender": "M",
+      "position": "SEO Specialist"
+    },
+    {
+      "name": "Evelyn Henderson",
+      "age": 24,
+      "gender": "F",
+      "position": "Intern"
+    },
+    {
+      "name": "Earl Moore",
+      "age": 21,
+      "gender": "M",
+      "position": "Junior SEO Specialist"
+    },
+    {
+      "name": "Phillip Sanchez",
+      "age": 35,
+      "gender": "M",
+      "position": "SEM Specialist"
+    }
+  ]
+}
+
+
+GET /department/_search
+{
+  "query": {
+    "bool": {
+      "must": [
+        {
+          "match": {
+            "employees.position": "intern"
+          }
+        },
+        {
+          "term": {
+            "employees.gender.keyword": {
+              "value": "F"
+            }
+          }
+        }
+      ]
+    }
+  }
+}
+
+
+GET /department/_search
+{
+  "query": {
+    "nested": {
+      "path": "employees",
+      "query": {
+        "bool": {
+          "must": [
+            {
+              "match": {
+                "employees.position": "intern"
+              }
+            },
+            {
+              "term": {
+                "employees.gender.keyword": {
+                  "value": "F"
+                }
+              }
+            }
+          ]
+        }
+      }
+    }
+  }
+}
+
+GET /department/_search
+{
+  "_source": "false",
+  "query": {
+    "nested": {
+      "path": "employees",
+      "inner_hits": {},
+      "query": {
+        "bool": {
+          "must": [
+            {
+              "match": {
+                "employees.position": "intern"
+              }
+            },
+            {
+              "term": {
+                "employees.gender.keyword": {
+                  "value": "F"
+                }
+              }
+            }
+          ]
+        }
+      }
+    }
+  }
+}
+
+
+PUT /departments
+{
+  "mappings": {
+    "properties": {
+      "join_fields": {
+        "type": "join",
+        "relations": {
+          "departments": "employees"
+        }
+      }
+    }
+  }
+}
+
+
+PUT /departments/_doc/1
+{
+  "name": "Development",
+  "join_fields": "departments"
+}
+
+PUT /departments/_doc/2
+{
+  "name": "Marketing",
+  "join_fields": "departments"
+}
+
+PUT /departments/_doc/3?routing=1
+{
+  "name": "Anand jha",
+  "age": 28,
+  "gender": "M",
+  "join_fields": {
+    "name": "employees",
+    "parent": 1
+  }
+}
+
+PUT /departments/_doc/4?routing=2
+{
+  "name": "Gautam Jha",
+  "age": 19,
+  "genger": "M",
+  "join_fields": {
+    "name": "employees",
+    "parent": 2
+  }
+}
+
+
+PUT /departments/_doc/5?routing=1
+{
+  "name": "James Evans",
+  "age": 32,
+  "gender": "M",
+  "join_field": {
+    "name": "employees",
+    "parent": 1
+  }
+}
+PUT /departments/_doc/6?routing=1
+{
+  "name": "Daniel Harris",
+  "age": 52,
+  "gender": "M",
+  "join_field": {
+    "name": "employees",
+    "parent": 1
+  }
+}
+PUT /departments/_doc/7?routing=2
+{
+  "name": "Jane Park",
+  "age": 23,
+  "gender": "F",
+  "join_field": {
+    "name": "employees",
+    "parent": 2
+  }
+}
+PUT /departments/_doc/8?routing=1
+{
+  "name": "Christina Parker",
+  "age": 29,
+  "gender": "F",
+  "join_field": {
+    "name": "employees",
+    "parent": 1
+  }
+}
+
+GET /departments/_search
+{
+  "query": {
+    "parent_id": {
+      "type": "employees",
+      "id": 2
+    }
+  }
+}
+
+
+GET /departments/_search
+{
+  "query": {
+    "has_parent": {
+      "parent_type": "departments",
+      "score": true,
+      "query": {
+        "term": {
+          "name.keyword": {
+            "value": "Marketing"
+          }
+        }
+      }
+    }
+  }
+}
+
+
+GET /departments/_search
+{
+  "query": {
+    "has_child": {
+      "type": "employees",
+      "query": {
+        "bool": {
+          "must": [
+            {
+              "range": {
+                "age": {
+                  "gte": 50
+                }
+              }
+            }
+          ],
+          "should": [
+            {
+              "term": {
+                "gender.keyword": "M"
+              }
+            }
+          ]
+        }
+      }
+    }
+  }
+}
+
+
+GET /departments/_search
+{
+  "query": {
+    "match_all": {}
+  }
+}
+
+PUT /company
+{
+  "mappings": {
+    "properties": {
+      "join_fields": {
+        "type": "join",
+        "relations": {
+          "company": ["departments", "suppliers"],
+          "departments": "employees"
+        }
+      }
+    }
+  }
+}
+
+PUT /company/_doc/1
+{
+  "name": "My Company Inc",
+  "join_fields": "company"
+}
+
+
+PUT /company/_doc/2?routing=1
+{
+  "name": "Development",
+  "join_fields": {
+    "name": "departments",
+    "parent": 1
+  }
+}
+
+PUT /company/_doc/3?routing=1
+{
+  "name" : "Anand Jha",
+  "join_fields": {
+    "name": "employees",
+    "parent": 2
+  }
+}
+
+
+PUT /company/_doc/4
+{
+  "name": "Business Company Inc",
+  "join_fields": "company"
+}
+
+PUT /company/_doc/5?routing=4
+{
+  "name": "Marketing",
+  "join_fields": {
+    "name": "departments",
+    "parent": 4
+  }
+}
+
+PUT /company/_doc/6?routing=4
+{
+  "name": "John Doe",
+  "join_fields": {
+    "name": "employees",
+    "parent": 5
+  }
+}
+
+GET /company/_search
+{
+  "query": {
+    "match_all": {}
+  }
+}
+
+
+GET /company/_search
+{
+  "query": {
+    "has_child": {
+      "type": "departments",
+      "query": {
+        "has_child": {
+          "type": "employees",
+          "query": {
+            "term": {
+              "name.keyword": "John Doe"
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+PUT /users/_doc/1
+{
+  "name": "John Roberts",
+  "following" : [2, 3]
+}
+PUT /users/_doc/2
+{
+  "name": "Elizabeth Ross",
+  "following" : []
+}
+PUT /users/_doc/3
+{
+  "name": "Jeremy Brooks",
+  "following" : [1, 2]
+}
+PUT /users/_doc/4
+{
+  "name": "Diana Moore",
+  "following" : [3, 1]
+}
+PUT /stories/_doc/1
+{
+  "user": 3,
+  "content": "Wow look, a penguin!"
+}
+PUT /stories/_doc/2
+{
+  "user": 1,
+  "content": "Just another day at the office... #coffee"
+}
+PUT /stories/_doc/3
+{
+  "user": 1,
+  "content": "Making search great again! #elasticsearch #elk"
+}
+PUT /stories/_doc/4
+{
+  "user": 4,
+  "content": "Had a blast today! #rollercoaster #amusementpark"
+}
+PUT /stories/_doc/5
+{
+  "user": 4,
+  "content": "Yay, I just got hired as an Elasticsearch consultant - so excited!"
+}
+PUT /stories/_doc/6
+{
+  "user": 2,
+  "content": "Chilling at the beach @ Greece #vacation #goodtimes"
+}
+
+
+GET /stories/_search
+{
+  "query": {
+    "terms": {
+      "user": {
+        "index": "users",
+        "id": 1,
+        "path": "following"
+      }
+    }
+  }
+}
+
+
+GET /recipe/_search?format=yaml
+{
+  "query": {
+    "match": {
+      "title": "pasta"
+    }
+  }
+}
+
+GET /recipe/_search
+{
+  "_source": false,
+  "query": {
+    "match": {
+      "title": "pasta"
+    }
+  }
+}
+
+GET /recipe/_search
+{
+  "_source": "created",
+  "query": {
+    "match": {
+      "title": "pasta"
+    }
+  }
+}
+
+GET /recipe/_search
+{
+  "_source": "ingredients.name",
+  "query": {
+    "match": {
+      "title": "pasta"
+    }
+  }
+}
+
+GET /recipe/_search
+{
+  "_source": "ingredients.*",
+  "query": {
+    "match": {
+      "title": "pasta"
+    }
+  }
+}
+
+GET /recipe/_search
+{
+  "_source": ["ingredients.*", "servings"],
+  "query": {
+    "match": {
+      "title": "pasta"
+    }
+  }
+}
+
+GET /recipe/_search
+{
+  "_source": {
+    "includes": "ingredients.*",
+    "excludes": "ingredients.name"
+  },
+  "query": {
+    "match": {
+      "title": "pasta"
+    }
+  }
+}
+
+GET /recipe/_search?size=2
+{
+  "_source": false,
+  "query": {
+    "match": {
+      "title": "pasta"
+    }
+  }
+}
+
+GET /recipe/_search
+{
+  "_source": false,
+  "size": 2,
+  "query": {
+    "match": {
+      "title": "pasta"
+    }
+  }
+}
+
+GET /recipe/_search
+{
+  "size": 2,
+  "from": 3,
+  "_source": false,
+  "query": {
+    "match": {
+      "title": "pasta"
+    }
+  }
+}
+
+GET /recipe/_search
+{
+  "_source": false,
+  "query": {
+    "match_all": {}
+  },
+  "sort": [
+    "preparation_time_minutes"
+  ]
+}
+
+GET /recipe/_search
+{
+  "_source": "created",
+  "query": {
+    "match_all": {}
+  },
+  "sort": [
+    {
+      "created": {
+        "order": "desc"
+      }
+    }
+  ]
+}
+
+
+GET /recipe/_search
+{
+  "_source": ["preparation_time_minutes", "created"],
+  "query": {
+    "match_all": {}
+  },
+  "sort": [
+    {
+      "preparation_time_minutes": {
+        "order": "asc"
+      }
+    },
+    {
+      "created": {
+        "order": "desc"
+      }
+    }
+  ]
+}
+
+GET /recipe/_search
+{
+  "_source": "ratings",
+  "query": {
+    "match_all": {}
+  },
+  "sort": [
+    {
+      "ratings": {
+        "order": "desc",
+        "mode": "avg"
+      }
+    }
+  ]
+}
+
+
+GET /recipe/_search
+{
+  "query": {
+    "bool": {
+      "must": [
+        {
+          "match": {
+            "title": "pasta"
+          }
+        }
+      ],
+      "filter": [
+        {
+          "range": {
+            "preparation_time_minutes": {
+              "lte": 15
+            }
+          }
+        }
+      ]
+    }
+  }
+}
+
+
+
+
+PUT /order
+{
+  "mappings": {
+    "properties": {
+      "purchased_at": {
+        "type": "date"
+      },
+      "lines": {
+        "type": "nested",
+        "properties": {
+          "product_id": {
+            "type": "integer"
+          },
+          "amount": {
+            "type": "double"
+          },
+          "quantity": {
+            "type": "short"
+          }
+        }
+      },
+      "total_amount": {
+        "type": "double"
+      },
+      "status": {
+        "type": "keyword"
+      },
+      "sales_channel": {
+        "type": "keyword"
+      },
+      "salesman": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "integer"
+          },
+          "name": {
+            "type": "text"
+          }
+        }
+      }
+    }
+  }
+}
+
+GET /order/_search
+{
+  "query": {
+    "match_all": {}
+  }
+}
+
+GET /order/_mapping
+
+
+GET /order/_search
+{
+  "size": 0,
+  "aggs": {
+    "total_sale": {
+      "sum": {
+        "field": "total_amount"
+      }
+    },
+    "average_sale": {
+      "avg": {
+        "field": "total_amount"
+      }
+    },
+    "min_sale": {
+      "min": {
+        "field": "total_amount"
+      }
+    },
+    "max_sale": {
+      "max": {
+        "field": "total_amount"
+      }
+    }
+  }
+}
+
+
+GET /order/_search
+{
+  "size": 0,
+  "aggs": {
+    "total_salesmen": {
+      "cardinality": {
+        "field": "salesman.id"
+      }
+    }
+  }
+}
+
+GET /order/_search
+{
+  "size": 0,
+  "aggs": {
+    "values_count": {
+      "value_count": {
+        "field": "total_amount"
+      }
+    }
+  }
+}
+
+GET /order/_search
+{
+  "size": 0,
+  "aggs": {
+    "status_terms": {
+      "terms": {
+        "field": "status"
+      }
+    }
+  }
+}
+
+
+GET /order/_search
+{
+  "size": 0,
+  "aggs": {
+    "status_terms": {
+      "terms": {
+        "field": "status"
+      },
+      "aggs": {
+      "status_stats": {
+        "stats": {
+          "field": "total_amount"
+        }
+      }
+    }
+  }
+
+  }
+}
+
+GET /order/_search
+{
+  "size": 0,
+  "query": {
+    "range": {
+      "total_amount": {
+        "gte": 100
+      }
+    }
+  },
+  "aggs": {
+    "status_term": {
+      "terms": {
+        "field": "status"
+      },
+      "aggs": {
+        "status_stats": {
+          "stats": {
+            "field": "total_amount"
+          }
+        }
+      }
+    }
+  }
+}
+GET /order/_search
+{
+  "size": 0,
+  "aggs": {
+    "low_value": {
+      "filter": {
+        "range": {
+          "total_amount": {
+            "lt": 50
+          }
+        }
+      },
+      "aggs": {
+        "average_amount": {
+          "avg": {
+            "field": "total_amount"
+          }
+        }
+      }
+    }
+  }
+}
+
+
+GET /recipe/_search
+{
+  "size": 0,
+  "aggs": {
+    "my_filters": {
+      "filters": {
+        "filters": {
+          "pasta": {
+            "match": {
+              "title": "pasta"
+            }
+          },
+          "spaghetti": {
+            "match": {
+              "title": "spaghetti"
+            }
+          }
+        }
+      },
+      "aggs": {
+        "avg_rating": {
+          "avg": {
+            "field": "ratings"
+          }
+        }
+      }
+    }
+  }
+}
+
+
+GET /order/_search
+{
+  "size": 0,
+  "aggs": {
+    "amount_distribution": {
+      "range": {
+        "field": "total_amount",
+        "ranges": [
+          {
+            "to": 50
+          },
+          {
+            "from": 50,
+            "to": 100
+          },
+          {
+            "from": 100,
+            "to": 150
+          }
+        ]
+      }
+    }
+  }
+}
+
+GET /order/_search
+{
+  "size": 0,
+  "aggs": {
+    "purchased_range": {
+      "date_range": {
+        "field": "purchased_at",
+        "format": "yyyy-MM-dd",
+        "keyed": true,
+        "ranges": [
+          {
+            "from": "2016-01-01",
+            "to": "2016-01-01||+6M",
+            "key": "first_half"
+          },
+          {
+            "from": "2016-01-01||+6M",
+            "to": "2016-01-01||+1y",
+            "key": "second_half"
+          }
+        ]
+      },
+      "aggs": {
+        "bucket_stats": {
+          "stats": {
+            "field": "total_amount"
+          }
+        }
+      }
+    }
+
+  }
+}
+
+
+GET /ecommerce/_search
+{
+  "query": {
+    "match_all": {}
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

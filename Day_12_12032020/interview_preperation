@@ -1,0 +1,34 @@
+KAFKA
+
+Since linkedin released it's log based solution to the opensource community in 2011, Kafka has been steadily
+ gaining it's popularity
+for this is default ingestion tool for streaming data
+
+Spark - Processing data at acale
+
+Aws S3, Redshift, GCP's Big query, Pub/sub
+
+Data Engineering refers to Data Infrastructure or Data Architecture. Raw data generated from different sources such as
+social media, mobile phones, internet needs to be transformed, cleansed, profiled, and aggrigated for the Business need.
+This Raw data is also termed as Dark Data. The practice of designing, architecting, and implementing the data process
+system helps
+in converting the data into the piece of information or set of data.
+
+Q) Explain the daily work of data engineers ?
+initial phase was invoved with designing, and architecting the infrastructure as per the company requirement. Now we are mainly
+focusing on scaling the data system, fine tuning it so that there is no any performance gap.
+Earlier we built model on limited set of data but now the data size is big so we are doing modification in
+our data system.
+Doing ETL
+simplifying data cleansing and improvement of data de-duplication
+doing ad-hoc data query building and extraction
+
+ER Data Model :-  According to the database system management system the entity is considered as table and attributes
+are columns of a table. So the ER diagram shows the relationship among tables in the database.
+
+Star schema data modeling -- fact table and dimentions table
+Star schema is the data warehouse structure
+it shows how data is organised
+Pros - summarize well difined data dimentions
+Cons - Not suited to data Exploration
+So we don't use it anymore
